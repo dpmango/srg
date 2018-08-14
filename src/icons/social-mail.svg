@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>social-mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="secondary" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="desktop-copy-5" transform="translate(-1072.000000, -5182.000000)" fill="#FFFFFF">
+            <g id="Group-17" transform="translate(-204.000000, 4842.000000)">
+                <g id="social-mail" transform="translate(1276.000000, 340.000000)">
+                    <path d="M0,27 C0,12.088311 12.088311,0 27,0 C41.911689,0 54,12.088311 54,27 C54,41.911689 41.911689,54 27,54 C12.088311,54 0,41.911689 0,27 Z M37.4,17 L16.6,17 C15.17,17 14,18.18125 14,19.625 L14,35.375 C14,36.81875 15.17,38 16.6,38 L37.4,38 C38.83,38 40,36.81875 40,35.375 L40,19.625 C40,18.18125 38.83,17 37.4,17 Z M37.4,22.25 L27,28.8125 L16.6,22.25 L16.6,19.625 L27,26.1875 L37.4,19.625 L37.4,22.25 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

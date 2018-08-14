@@ -1,7 +1,99 @@
 // FOOTER
 .footer
-  // background: #f5f5f5
+  background: url('../img/footerBg.png') no-repeat center bottom
+  color: white
+  padding-bottom: 40px
+  padding-top: 220px
+  margin-top: 50px
+
   &__wrapper
+
+  &__top
+    display: flex
+
+  &__socials
+    display: flex
+    flex-wrap: wrap
+    max-width: 420px
+    &-col
+      flex: 0 1 33.3%
+      max-width: 33.3%
+      min-width: 1px
+      min-height: 0
+
+    a
+      display: inline-block
+      margin-bottom: 50px
+      font-size: 0
+      color: rgba(white, .9)
+      transition: .25s $ease
+      .ico
+        font-size: 54px
+      &:hover
+        color: white
+
+
+
+  &__contacts
+    margin-left: auto
+    display: flex
+    flex-direction: column
+
+  &__contact
     display: flex
     align-items: center
-    height: 100px
+    margin-bottom: 50px
+    color: rgba(white, .9)
+    transition: .25s $ease
+    .ico
+      font-size: 54px
+    span
+      display: inline-block
+      margin-left: 22px
+      color: rgba(white,.82)
+      transition: .25s $ease
+
+    &:hover
+      color: white
+      span
+        color: white
+
+
+
+
+  &__bottom
+    position: relative
+    display: flex
+    align-items: center
+    padding-top: 35px
+    &::before
+      display: inline-block
+      content: ' '
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      height: 2px
+      background: rgba(white, .6)
+
+  &__copy
+    display: flex
+    align-items: center
+    font-size: 0
+
+
+  &__site-name
+    display: inline-block
+    margin-left: 25px
+    font-size: 14px
+    line-height: 1.35
+
+  &__presentation
+    margin-left: auto
+    display: flex
+    align-items: center
+    span
+      display: inline-block
+      text-decoration: underline
+      font-size: 16px
+      margin-left: 25px

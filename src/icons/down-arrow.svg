@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="7px" viewBox="0 0 14 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>down-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="secondary" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-copy-5" transform="translate(-1285.000000, -897.000000)" fill="#181820" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(-131.000000, 0.000000)">
+                <g id="down-btn" transform="translate(1399.000000, 875.000000)">
+                    <polygon id="down-arrow" points="29.1327705 22.5506183 30.0672295 23.8493817 24.0439453 28.1831286 17.9372325 23.8525689 18.8627675 22.5474311 24.0372067 26.2168714"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
