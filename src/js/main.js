@@ -54,8 +54,9 @@ $(document).ready(function(){
     .on('click', '[href="#"]', function(e) {
   		e.preventDefault();
   	})
-    .on('click', 'a[href^="#section"]', function() { // section scroll
-      var el = $(this).attr('href');
+    .on('click', '[js-scroll-to]', function() { // section scroll
+      var el = $(this).data('target');
+      console.log(el)
       $('body, html').animate({
           scrollTop: $(el).offset().top}, 1000);
       return false;

@@ -13,20 +13,29 @@ block content
           .hero__image-bg
             //- img()
         .hero__contents
-          .hero__title Play & Earn
-          .hero__description Децентрализованная программа лояльности<br>для онлайн-приложений, построенная на<br>технологии blockchain. 
+          h1.h1-title.wow Play & Earn
+          .t1-paragraph.wow Децентрализованная программа лояльности<br>для онлайн-приложений, построенная на<br>технологии blockchain. 
       
       .scroll-down(js-scroll-to data-target="#about")
         +icon('ico-down-arrow')
   
   
   // ABOUT :: START
-  .about
+  .about#about
     .container
       .about__wrapper
+        .about__contents
+          h1.h1-title.wow О проекте
+          .t1-paragraph.wow Основное отличие SRG от других игровых платформ (Steam, Origin, GOG и др.) заключается в наличии мотивационных и многоуровневых реферальных программ, в рамках которых игроки смогут зарабатывать на игровых и социальных активностях, а также на чужих платежах в играх. Благодаря SRG community разработчики сократят маркетинговые расходы и также смогут получить дополнительный доход от реферальных платежей в других играх платформы
+          a(href="#" target="_blank").about__presentation.wow
+            i.icon.icon-presentation
+            span Download <br>presentation
+        .about__image.wow
+          img(src='img/devices.png' srcset='img/devices@2x.png 2x')
+          
   
   // BENEFITS :: START
-  .benefits
+  .benefits#benefits
     .container
       .benefits__wrapper
         .benefits__left
@@ -36,13 +45,13 @@ block content
         .benefits__right
   
   // ECOSYSTEM :: START
-  .ecosystem
+  .ecosystem#ecosystem
     .container
       .ecosystem__wrapper
   
   
   // DEVICES
-  .devices
+  .devices#devices
     .container
       .devices__wrapper
   
