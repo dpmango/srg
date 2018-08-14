@@ -1,0 +1,70 @@
+/* HEADER
+.header
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  background: transparent
+  &__wrapper
+    display: flex
+    align-items: center
+    padding: 45px 0
+
+  &__logo
+    flex: 0 0 auto
+    padding-right: 30px
+    font-size: 0
+
+  &__menu
+    flex: 0 1 auto
+    display: flex
+    align-items: center
+    font-size: 16px
+    margin: 0 auto
+    padding: 0
+    li
+      display: inline-block
+      margin-right: 20px
+    a
+      display: inline-block
+      padding: 10px
+      transition: color .25s $ease
+      &:hover
+        color: $colorPrimary
+
+  &__cta
+    margin-left: auto
+    padding-left: 30px
+
+  &__lang
+    color: $colorPrimary
+    font-size: 18px
+    letter-spacing: 0.0165em
+    text-transform: uppercase
+    padding: 10px
+    margin-left: 10px
+    margin-right: -10px
+
+
+  &__hamburger
+    display: none
+    padding-left: 20px
+
+
++r($desktop)
+  .header
+    &__cta
+      display: none
+
++r($tablet)
+  .header
+    &__menu
+      display: none
+    &__hamburger
+      margin-left: auto
+      display: block
+
++r($mobile)
+  .header
+    &__logo
+      font-size: 30px

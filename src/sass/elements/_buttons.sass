@@ -1,0 +1,46 @@
+// buttons
+button
+  -webkit-apperance: none
+  border: 0
+  box-shadow: none
+  cursor: pointer
+  &:focus
+    outline: none
+
+.btn
+  display: inline-block
+  position: relative
+  text-align: center
+  transition: all $transitionSpeed ease-in-out
+  &:focus, &:active
+    outline: none
+  &--block
+    display: block
+    width: 100%
+
+  &-glow
+    position: relative
+    color: $colorPrimary
+    font-size: 16px
+    letter-spacing: 0.0147em
+    padding: 8px 38px
+    border-radius: 30px
+    border: 1px solid $colorPrimary
+    span
+      position: relative
+      z-index: 2
+    &::after
+      display: inline-block
+      content: ' '
+      position: absolute
+      top: 50%
+      height: 100%
+      left: 0
+      right: 0
+      z-index: 1
+      border-radius: 50%
+      /* Oval 9 Copy 2: */
+      opacity: 0.3
+      background: $colorPrimary
+      filter: blur(25px)
+      transform: translateY(-50%)
