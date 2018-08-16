@@ -37,6 +37,8 @@
     padding-left: 30px
 
   &__lang
+    position: relative
+    z-index: 2
     color: $colorPrimary
     font-size: 18px
     letter-spacing: 0.0165em
@@ -44,6 +46,9 @@
     padding: 10px
     margin-left: 10px
     margin-right: -10px
+    transition: .25s $ease
+    &:hover
+      color: white
 
 
   &__hamburger

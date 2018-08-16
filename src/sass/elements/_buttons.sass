@@ -40,7 +40,14 @@ button
       z-index: 1
       border-radius: 50%
       /* Oval 9 Copy 2: */
-      opacity: 0.3
+      // opacity: 0.3
       background: $colorPrimary
-      filter: blur(25px)
+      filter: blur(25px) opacity(30%)
       transform: translateY(-50%)
+      transition: .25s $ease
+    &:hover
+      background: $colorPrimary
+      color: $blackColor
+      &::after
+        filter: blur(15px) opacity(30%)
+        // opacity: .5

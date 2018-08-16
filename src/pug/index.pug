@@ -39,11 +39,62 @@ block content
     .container
       .benefits__wrapper
         .benefits__left
-        
+          .h3-title Преимущества<br>для игроков
+          .benefit-card
+            .benefit-card__counter 1
+            .benefit-card__icon
+              i.icon.icon-benefit-person
+            .benefit-card__name Персональные 5-уровневые реферальные программы
+          // card
+          .benefit-card
+            .benefit-card__counter 2
+            .benefit-card__icon
+              i.icon.icon-benefit-card
+            .benefit-card__name Возможность зарабатывать на личных и совместных игровых достижениях
+          //card
+          .benefit-card
+            .benefit-card__counter 3
+            .benefit-card__icon
+              i.icon.icon-benefit-coin
+            .benefit-card__name Монетизировать время
+          //card
+          .benefit-card
+            .benefit-card__counter 4
+            .benefit-card__icon
+              i.icon.icon-benefit-joystick
+            .benefit-card__name Возможность создавать и монетизировать игровой контент
+
         .benefits__center
+          .benefits__cube
+            img(src='img/cube.png' srcset='img/cube@2x.png 2x')
           
         .benefits__right
-  
+          //card
+          .benefit-card
+            .benefit-card__counter I
+            .benefit-card__icon
+              i.icon.icon-benefit-person-plus
+            .benefit-card__name Получение целевой (в том числе генерирующей контент) аудитории на старте проекта
+          // card
+          .benefit-card
+            .benefit-card__counter II
+            .benefit-card__icon
+              i.icon.icon-benefit-chart
+            .benefit-card__name Доступ к специализированной игровой статистике
+          //card
+          .benefit-card
+            .benefit-card__counter III
+            .benefit-card__icon
+              i.icon.icon-benefit-like
+            .benefit-card__name Удобный и понятный сервис ротации трафика по любым играм платформы
+          //card
+          .benefit-card
+            .benefit-card__counter IV
+            .benefit-card__icon
+              i.icon.icon-benefit-arrows
+            .benefit-card__name Простой механизм привлечения внутреннего и внешнего трафика
+
+
   // ECOSYSTEM :: START
   .ecosystem#ecosystem
     .container
@@ -52,7 +103,30 @@ block content
   
   // DEVICES
   .devices#devices
-    .container
+    .container.container--wide
       .devices__wrapper
-  
-  
+        .devices__slider
+          .swiper-container(js-swiper-devices)
+            .swiper-wrapper
+              .swiper-slide.devices__slide
+                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
+              .swiper-slide.devices__slide
+                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
+              .swiper-slide.devices__slide
+                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
+              .swiper-slide.devices__slide
+                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
+                          
+        
+        .devices__contents
+          h1.h1-title SRG Blockchain
+          .t1-paragraph Blockchain используемный для прозрачности отчетов а так же выпуска ликвидных токенов GMP. Blockchain используется во всех приложениях SRG company
+          .devices__nav(js-swiper-devices-nav)
+            .devices__nav-el.is-active(data-slide="1")
+              span iOS
+            .devices__nav-el(data-slide="2")
+              span MacOS
+            .devices__nav-el(data-slide="3")
+              span Android
+            .devices__nav-el(data-slide="4")
+              span Windows

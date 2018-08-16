@@ -1,0 +1,53 @@
+.benefits
+  margin: 50px 0
+  &__wrapper
+    text-align: center
+    display: flex
+    margin: -15px
+    margin-right: -15px
+  &__left, &__right, &__center
+    padding: 0 15px
+
+  &__left, &__right
+    flex: 0 1 30%
+  &__center
+    flex: 0 1 40%
+    display: flex
+    flex-direction: column
+  &__cube
+    margin: auto
+    img
+      max-width: 100%
+  &__col-title
+    font-size: 32px
+
+  &__right
+    .benefit-card__counter
+      text-align: center
+      min-width: 130px
+      left: 4%
+// card
+.benefit-card
+  position: relative
+  text-align: center
+  margin-top: 65px
+  &__counter
+    position: absolute
+    z-index: 1
+    top: -17%
+    left: 14%
+    opacity: .05
+    font-size: 158px
+    line-height: 1
+    font-family: 'Impact'
+    pointer-events: none
+  &__icon
+    position: relative
+    z-index: 2
+
+  &__name
+    position: relative
+    z-index: 2
+    color: rgba(white, .75)
+    line-height: 1.44
+    margin-top: 10px

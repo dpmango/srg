@@ -1,11 +1,83 @@
 $sprite: (
-	logo: (
+	benefit-arrows: (
+		offset-x: -279px,
+		offset-y: 0px,
+		width: 45px,
+		height: 48px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	benefit-card: (
+		offset-x: -127px,
+		offset-y: -123px,
+		width: 64px,
+		height: 45px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	benefit-chart: (
+		offset-x: -217px,
+		offset-y: -128px,
+		width: 49px,
+		height: 50px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	benefit-coin: (
+		offset-x: 0px,
+		offset-y: -123px,
+		width: 52px,
+		height: 61px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	benefit-joystick: (
 		offset-x: -144px,
 		offset-y: 0px,
+		width: 63px,
+		height: 63px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	benefit-like: (
+		offset-x: -62px,
+		offset-y: -123px,
+		width: 55px,
+		height: 54px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	benefit-person-plus: (
+		offset-x: -217px,
+		offset-y: 0px,
+		width: 52px,
+		height: 57px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	benefit-person: (
+		offset-x: -217px,
+		offset-y: -67px,
+		width: 51px,
+		height: 51px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
+	logo: (
+		offset-x: 0px,
+		offset-y: -194px,
 		width: 68px,
 		height: 40px,
-		total-width: 212px,
-		total-height: 113px,
+		total-width: 324px,
+		total-height: 234px,
 		image: '../img/sprite.png'
 	),
 	presentation: (
@@ -13,8 +85,8 @@ $sprite: (
 		offset-y: 0px,
 		width: 134px,
 		height: 113px,
-		total-width: 212px,
-		total-height: 113px,
+		total-width: 324px,
+		total-height: 234px,
 		image: '../img/sprite.png'
 	),
 );
@@ -73,6 +145,30 @@ $sprite: (
 
 
 
+	.icon-benefit-arrows {
+		@include sprite(benefit-arrows)
+	}
+	.icon-benefit-card {
+		@include sprite(benefit-card)
+	}
+	.icon-benefit-chart {
+		@include sprite(benefit-chart)
+	}
+	.icon-benefit-coin {
+		@include sprite(benefit-coin)
+	}
+	.icon-benefit-joystick {
+		@include sprite(benefit-joystick)
+	}
+	.icon-benefit-like {
+		@include sprite(benefit-like)
+	}
+	.icon-benefit-person-plus {
+		@include sprite(benefit-person-plus)
+	}
+	.icon-benefit-person {
+		@include sprite(benefit-person)
+	}
 	.icon-logo {
 		@include sprite(logo)
 	}

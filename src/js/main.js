@@ -120,34 +120,31 @@ $(document).ready(function(){
   function initSliders(){
 
     // EXAMPLE SWIPER
-    new Swiper('[js-slider]', {
+    var swiperDevices = new Swiper('[js-swiper-devices]', {
       wrapperClass: "swiper-wrapper",
-      slideClass: "example-slide",
+      // slideClass: "example-slide",
       direction: 'horizontal',
       loop: false,
       watchOverflow: true,
       setWrapperSize: false,
       spaceBetween: 0,
-      slidesPerView: 'auto',
-      // loop: true,
+      slidesPerView: 1,
       normalizeSlideIndex: true,
-      // centeredSlides: true,
-      freeMode: true,
-      // effect: 'fade',
-      autoplay: {
-        delay: 5000,
-      },
-      navigation: {
-        nextEl: '.example-next',
-        prevEl: '.example-prev',
-      },
-      breakpoints: {
-        // when window width is <= 992px
-        992: {
-          autoHeight: true
-        }
+      on: {
+        slideChange: function () {
+          var newIndex = swiperDevices.realIndex + 1
+          var targetControl = $('[js-swiper-devices-nav] [data-slide="'+newIndex+'"]')
+          targetControl.siblings().removeClass('is-active')
+          targetControl.addClass('is-active')
+        },
       }
     })
+
+    _document
+      .on('click', '[js-swiper-devices-nav] div', function(){
+        var targetIndex = $(this).data('slide') - 1;
+        swiperDevices.slideTo(targetIndex)
+      })
 
   }
 
