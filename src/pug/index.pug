@@ -9,9 +9,17 @@ block content
   .hero
     .container
       .hero__wrapper
-        .hero__image
-          .hero__image-bg
-            //- img()
+        .hero__background
+          .hero__oval
+            img(src='img/hero-oval.png' srcset='img/hero-oval@2x.png 2x')
+          .hero__remote
+            .hero__remote-wrapper
+              img(src='img/hero-remote.png' srcset='img/hero-remote@2x.png 2x')
+              .hero__btn
+                a(href="#").hero__join
+                  .hero__join-bg
+                    span Join
+              
         .hero__contents
           h1.h1-title.wow Play & Earn
           .t1-paragraph.wow Децентрализованная программа лояльности<br>для онлайн-приложений, построенная на<br>технологии blockchain. 
