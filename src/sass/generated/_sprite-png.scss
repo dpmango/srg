@@ -71,6 +71,15 @@ $sprite: (
 		total-height: 234px,
 		image: '../img/sprite.png'
 	),
+	card: (
+		offset-x: -279px,
+		offset-y: -108px,
+		width: 39px,
+		height: 27px,
+		total-width: 324px,
+		total-height: 234px,
+		image: '../img/sprite.png'
+	),
 	logo: (
 		offset-x: 0px,
 		offset-y: -194px,
@@ -177,6 +186,9 @@ $sprite: (
 	}
 	.icon-benefit-person {
 		@include sprite(benefit-person)
+	}
+	.icon-card {
+		@include sprite(card)
 	}
 	.icon-logo {
 		@include sprite(logo)

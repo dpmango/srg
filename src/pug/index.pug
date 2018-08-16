@@ -10,6 +10,8 @@ block content
     .container
       .hero__wrapper
         .hero__background
+          .hero__floating
+            include ../inline-svg/hero-floating.svg
           .hero__oval
             img(src='img/hero-oval.png' srcset='img/hero-oval@2x.png 2x')
           .hero__remote
@@ -24,7 +26,7 @@ block content
           h1.h1-title.wow Play & Earn
           .t1-paragraph.wow Децентрализованная программа лояльности<br>для онлайн-приложений, построенная на<br>технологии blockchain. 
       
-      .scroll-down(js-scroll-to data-target="#about")
+      .scroll-down(js-scroll-to data-target="#about").wow
         +icon('ico-down-arrow')
   
   
@@ -77,6 +79,7 @@ block content
             img(src='img/cube.png' srcset='img/cube@2x.png 2x')
           
         .benefits__right
+          .h3-title Преимущества<br>для разработчиков
           //card
           .benefit-card
             .benefit-card__counter I
@@ -107,7 +110,19 @@ block content
   .ecosystem#ecosystem
     .container
       .ecosystem__wrapper
-  
+        .h1-title Единая экосистема
+        .ecosystem__image
+          img(src='img/ecosystem.png' srcset='img/ecosystem@2x.png 2x')
+        // tag
+        .ecosystem__tag.ecosystem__tag--first
+          .ecosystem__tag-icon
+            i.icon.icon-time
+          .ecosystem__tag-name Получает бонусы за время, проведенное в игре
+        // tag
+        .ecosystem__tag.ecosystem__tag--second
+          .ecosystem__tag-icon
+            i.icon.icon-card
+          .ecosystem__tag-name Деньги конвертируются в GMP и попадают на счет игрока
   
   // DEVICES
   .devices#devices
