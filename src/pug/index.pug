@@ -103,9 +103,15 @@ block content
   
   // DEVICES
   .devices#devices
+    .devices__bg
+      img(src='img/devices_bg-shapes.svg')
+    .devices__bg-oval
+      img(src='img/devices_bg-oval.svg')
     .container.container--wide
       .devices__wrapper
         .devices__slider
+          .devices__slider-bg
+            img(src='img/devices_bg-shapes2.svg')
           .swiper-container(js-swiper-devices)
             .swiper-wrapper
               .swiper-slide.devices__slide
@@ -130,3 +136,12 @@ block content
               span Android
             .devices__nav-el(data-slide="4")
               span Windows
+
+  //BACKGROUND LINES
+  .background-lines__1
+    .background-lines__wrapper
+  .background-lines__2
+    .background-lines__wrapper
+  .background-lines__3
+    .background-lines__wrapper
+    
