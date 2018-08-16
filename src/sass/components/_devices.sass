@@ -74,3 +74,27 @@
         background: $colorPrimary
         color: white
         background-image: linear-gradient(90deg, #CEE4B3 0%, #6FC7BB 100%);
+
++r($desktop)
+  .devices
+    &__wrapper
+      flex-direction: column-reverse
+      margin-left: 0
+      margin-right: 0
+    &__slider
+      flex: 0 0 auto
+      padding: 0
+      max-width: 100%
+    &__contents
+      flex: 0 0 auto
+      padding: 0
+      max-width: 100%
+      text-align: center
+    &__nav
+      max-width: 415px
+      margin-left: auto
+      margin-right: auto
+      font-size: 0
+      &-el
+        &:nth-child(even)
+          margin-right: 0

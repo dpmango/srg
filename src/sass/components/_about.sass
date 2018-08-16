@@ -13,7 +13,7 @@
       color: rgba(white, .6)
       margin-top: 25px
 
-  &__img
+  &__image
     padding: 0 30px
     img
       max-width: 100%
@@ -32,3 +32,19 @@
     &:hover
       span
         text-decoration: none
+
++r($desktop)
+  .about
+    &__wrapper
+      flex-direction: column
+      margin-left: 0
+      margin-right: 0
+    &__contents
+      flex: 0 0 auto
+      max-width: 500px
+      padding: 0
+    &__image
+      margin-top: -90px
+      flex: 0 0 auto
+      margin-left: auto
+      padding: 0
