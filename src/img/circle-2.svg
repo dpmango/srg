@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1676px" height="2028px" viewBox="0 0 1676 2028" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.264397035 0.176457174 706.815097 0.176457174 706.815097 407.933335 0.264397035 407.933335"></polygon>
+        <rect id="path-3" x="1.02318154e-12" y="4.54747351e-13" width="1585" height="984"></rect>
+    </defs>
+    <g id="Desktop-HD-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-804.000000, -471.000000)">
+        <g id="Group" transform="translate(773.000000, 286.000000)">
+            <g id="Group-8" transform="translate(888.126271, 317.129643) rotate(-21.000000) translate(-888.126271, -317.129643) translate(534.626271, 113.133750)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-7"></g>
+                <path d="M1014.31613,1012.88157 C1014.31613,1572.18364 560.30973,2025.58668 0.264397035,2025.58668 C-559.780936,2025.58668 -1013.78733,1572.18364 -1013.78733,1012.88157 C-1013.78733,453.580084 -559.780936,0.176457174 0.264397035,0.176457174 C560.30973,0.176457174 1014.31613,453.580084 1014.31613,1012.88157 Z" id="Stroke-6" stroke="#FEFEFE" stroke-width="0.5" stroke-dasharray="6.112842074243645,6.112842074243645" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Group-8-Copy" transform="translate(916.604406, 1892.568046) rotate(-21.000000) translate(-916.604406, -1892.568046) translate(124.104406, 1400.568046)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <path d="M1991.31613,-180.118431 C1991.31613,379.183637 1537.30973,832.586682 977.264397,832.586682 C417.219064,832.586682 -36.7873336,379.183637 -36.7873336,-180.118431 C-36.7873336,-739.419916 417.219064,-1192.82354 977.264397,-1192.82354 C1537.30973,-1192.82354 1991.31613,-739.419916 1991.31613,-180.118431 Z" id="Stroke-6" stroke="#FEFEFE" stroke-width="0.5" stroke-dasharray="6.112842074243645,6.112842074243645" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

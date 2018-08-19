@@ -1,10 +1,14 @@
 // FOOTER
 .footer
-  background: url('../img/footerBg.png') no-repeat center bottom
+  position: relative
+  // background: url('../img/footerBg.png') no-repeat center bottom
   color: white
   padding-bottom: 40px
-  padding-top: 220px
-  margin-top: 50px
+  padding-top: 50px
+  // margin-top: -200px
+  > .container
+    position: relative
+    z-index: 2
 
   &__wrapper
 
@@ -97,3 +101,58 @@
       text-decoration: underline
       font-size: 16px
       margin-left: 25px
+
+// earth animation
+.footer-bg
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 1
+  font-size: 0
+  display: flex
+  flex-direction: column
+  &__wrapper
+    flex: 1 1 auto
+    position: relative
+    // background-color: #1f1f1f
+    color: white
+    padding-top: 65px
+    padding-bottom: 65px
+    height: 640px
+    overflow: hidden
+    &::after
+      display: inline-block
+      content: ''
+      position: absolute 0
+      z-index: 1
+      background: rgba(#141315, .5)
+  &__earth
+    position: absolute
+    bottom: 0
+    z-index: 1
+    left: 50%
+    transform: translate(-50%, 0)
+  &__circle1, &__circle2, &__circle3
+    position: absolute
+    transform: translate(-50%, 0)
+    z-index: 2
+
+  &__circle1
+    top: 50%
+    left: 50%
+    animation: rotate 50s linear infinite
+  &__circle2
+    top: 55%
+    left: 50%
+    animation: rotate 45s linear infinite
+  &__circle3
+    top: 60%
+    left: 50%
+    animation: rotate 40s linear infinite
+
+@keyframes rotate
+  0%
+    transform: translate(-50%, 0) rotate(0)
+  100%
+    transform: translate(-50%, 0) rotate(360deg)

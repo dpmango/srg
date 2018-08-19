@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1944px" height="1944px" viewBox="0 0 1944 1944" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="465" height="1307"></rect>
+        <rect id="path-3" x="0" y="0" width="1410" height="645"></rect>
+        <rect id="path-5" x="0" y="0" width="632" height="851"></rect>
+        <polygon id="path-7" points="0.264397035 0.0681924973 706.815097 0.0681924973 706.815097 366.058198 0.264397035 366.058198"></polygon>
+    </defs>
+    <g id="Desktop-HD-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-637.000000, -506.000000)">
+        <g id="Group-3" transform="translate(541.000000, 318.000000)">
+            <g id="Stroke-12" transform="translate(0.000000, 516.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M1860.00145,79.5618166 C1973.94224,238.625302 2041,433.489647 2041,643.999709 C2041,1180.26839 1605.8209,1615 1068.99985,1615 C532.179101,1615 97,1180.26839 97,643.999709 C97,107.73132 532.179101,-327 1068.99985,-327 C1224.28632,-327 1371.06779,-290.62274 1501.2704,-225.933766" stroke="#FEFEFE" stroke-width="0.5" mask="url(#mask-2)" transform="translate(1069.000000, 644.000000) rotate(-21.000000) translate(-1069.000000, -644.000000) "></path>
+            </g>
+            <g id="Stroke-12-Copy" transform="translate(763.000000, 1598.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M1097.00145,-1002.43818 C1210.94224,-843.374698 1278,-648.510353 1278,-438.000291 C1278,98.2683888 842.820899,533 305.999854,533 C-230.820899,533 -666,98.2683888 -666,-438.000291 C-666,-974.26868 -230.820899,-1409 305.999854,-1409 C461.28632,-1409 608.067786,-1372.62274 738.2704,-1307.93377" stroke="#FEFEFE" stroke-width="0.5" mask="url(#mask-4)" transform="translate(306.000000, -438.000000) rotate(-21.000000) translate(-306.000000, 438.000000) "></path>
+            </g>
+            <g id="Stroke-12-Copy-2" transform="translate(1468.000000, 241.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M392.001451,354.561817 C505.942238,513.625302 573,708.489647 573,918.999709 C573,1455.26839 137.820899,1890 -399.000146,1890 C-935.820899,1890 -1371,1455.26839 -1371,918.999709 C-1371,382.73132 -935.820899,-52 -399.000146,-52 C-243.71368,-52 -96.9322136,-15.6227399 33.2703997,49.066234" stroke="#FEFEFE" stroke-width="0.5" mask="url(#mask-6)" transform="translate(-399.000000, 919.000000) rotate(-21.000000) translate(399.000000, -919.000000) "></path>
+            </g>
+            <path d="M1165,193 C1165,194.104505 1164.1045,195 1163,195 C1161.8955,195 1161,194.104505 1161,193 C1161,191.895856 1161.8955,191 1163,191 C1164.1045,191 1165,191.895856 1165,193" id="Fill-37" fill="#EB6942" transform="translate(1163.000000, 193.000000) rotate(-21.000000) translate(-1163.000000, -193.000000) "></path>
+            <g id="Group-14" transform="translate(1116.787906, 298.088887) rotate(-21.000000) translate(-1116.787906, -298.088887) translate(763.287906, 114.588887)">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="Clip-13"></g>
+                <path d="M791.452227,406.604235 C905.41987,565.657637 972.493438,760.509628 972.493438,971.006345 C972.493438,1507.24103 537.211766,1941.94508 0.264193204,1941.94508 C-536.683089,1941.94508 -971.96476,1507.24103 -971.96476,971.006345 C-971.96476,434.771953 -536.683089,0.0681924973 0.264193204,0.0681924973 C155.58726,0.0681924973 302.403322,36.4431465 432.636624,101.128019" id="Stroke-12" stroke="#FEFEFE" stroke-width="0.5" mask="url(#mask-8)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
