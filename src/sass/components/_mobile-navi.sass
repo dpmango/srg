@@ -1,0 +1,54 @@
+.mobile-navi
+  display: none
+  position: fixed
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background: #141315
+  z-index: 8
+  opacity: 0
+  transition: .25s $ease
+  transform: translate(0,50%)
+  pointer-events: none
+  +r($desktop)
+    display: block
+  &.is-active
+    opacity: 1
+    transform: none
+    pointer-events: all
+  &__wrapper
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    overflow-y: auto
+    justify-content: center
+    text-align: center
+    align-items: center
+
+  &__menu
+    margin: 80px 0 30px
+    padding: 0
+    list-style: none
+    li
+      display: block
+      margin-bottom: 5px
+      font-size: 21px
+    a
+      padding: 5px
+      cursor: pointer
+      display: inline-block
+      transition: color .25s $ease
+      &:hover
+        color: $colorPrimary
+        
+  &__cta
+    display: flex
+    flex-direction: column
+    max-width: 132px
+    margin-left: auto
+    margin-right: auto
+
+    .header__lang
+      padding: 0
+      margin: 30px 0

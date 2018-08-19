@@ -9,12 +9,13 @@
   &__wrapper
     display: flex
     align-items: center
-    padding: 45px 0
+    padding: 45px 0 0
 
   &__logo
     flex: 0 0 auto
     // padding-right: 0px
     font-size: 0
+    transition: opacity .25s $ease
 
   &__menu
     flex: 0 1 auto
@@ -31,6 +32,7 @@
     a
       display: inline-block
       padding: 10px
+      cursor: pointer
       transition: color .25s $ease
       &:hover
         color: $colorPrimary
@@ -70,8 +72,12 @@
 
 +r($desktop)
   .header
+    &.is-menu-opened
+      .header__logo
+        opacity: 0
+        pointer-events: none
     &__wrapper
-      padding: 40px 0
+      padding: 40px 0 0
     &__logo
       margin-left: auto
       margin-right: auto

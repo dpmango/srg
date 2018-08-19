@@ -133,16 +133,15 @@ block content
         .devices__slider
           .devices__slider-bg
             img(src='img/devices_bg-shapes2.svg')
-          .swiper-container(js-swiper-devices)
-            .swiper-wrapper
-              .swiper-slide.devices__slide
-                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
-              .swiper-slide.devices__slide
-                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
-              .swiper-slide.devices__slide
-                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
-              .swiper-slide.devices__slide
-                img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
+          .devices__slider-container(js-swiper-devices)
+            .devices__slide.is-active(data-index="1")
+              img(src='img/devices_ios.png' srcset='img/devices_ios@2x.png 2x')
+            .devices__slide(data-index="2")
+              img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
+            .devices__slide(data-index="3")
+              img(src='img/devices_2.png' srcset='img/devices_2@2x.png 2x')
+            .devices__slide(data-index="4")
+              img(src='img/devices_3.png' srcset='img/devices_3@2x.png 2x')
 
         .devices__contents
           h1.h1-title SRG Blockchain

@@ -12,24 +12,15 @@ $(document).ready(function(){
   ////////////
   function pageReady(){
     legacySupport();
-    updateHeaderActiveClass();
-    initHeaderScroll();
-
+    initTeleport();
     initSliders();
     initScrollMonitor();
-
     revealFooter();
     _window.on('resize', throttle(revealFooter, 100));
   }
 
   // this is a master function which should have all functionality
   pageReady();
-
-
-  // some plugins work best with onload triggers
-  _window.on('load', function(){
-    // your functions
-  })
 
 
   //////////
@@ -56,62 +47,25 @@ $(document).ready(function(){
   	})
     .on('click', '[js-scroll-to]', function() { // section scroll
       var el = $(this).data('target');
-      console.log(el)
       $('body, html').animate({
           scrollTop: $(el).offset().top}, 1000);
+      closeMobileMenu();
       return false;
     })
-
-
-  // HEADER SCROLL
-  // add .header-static for .page or body
-  // to disable sticky header
-  function initHeaderScroll(){
-    _window.on('scroll', throttle(function(e) {
-      var vScroll = _window.scrollTop();
-      var header = $('.header').not('.header--static');
-      var headerHeight = header.height();
-      var firstSection = _document.find('.page__content div:first-child()').height() - headerHeight;
-      var visibleWhen = Math.round(_document.height() / _window.height()) >  2.5
-
-      if (visibleWhen){
-        if ( vScroll > headerHeight ){
-          header.addClass('is-fixed');
-        } else {
-          header.removeClass('is-fixed');
-        }
-        if ( vScroll > firstSection ){
-          header.addClass('is-fixed-visible');
-        } else {
-          header.removeClass('is-fixed-visible');
-        }
-      }
-    }, 10));
-  }
-
 
   // HAMBURGER TOGGLER
   _document.on('click', '[js-hamburger]', function(){
     $(this).toggleClass('is-active');
+    $('.header').toggleClass('is-menu-opened');
     $('.mobile-navi').toggleClass('is-active');
   });
 
   function closeMobileMenu(){
     $('[js-hamburger]').removeClass('is-active');
+    $('.header').removeClass('is-menu-opened');
     $('.mobile-navi').removeClass('is-active');
   }
 
-  // SET ACTIVE CLASS IN HEADER
-  // * could be removed in production and server side rendering when header is inside barba-container
-  function updateHeaderActiveClass(){
-    $('.header__menu li').each(function(i,val){
-      if ( $(val).find('a').attr('href') == window.location.pathname.split('/').pop() ){
-        $(val).addClass('is-active');
-      } else {
-        $(val).removeClass('is-active')
-      }
-    });
-  }
 
   //////////
   // SLIDERS
@@ -119,31 +73,27 @@ $(document).ready(function(){
 
   function initSliders(){
 
-    // EXAMPLE SWIPER
-    var swiperDevices = new Swiper('[js-swiper-devices]', {
-      wrapperClass: "swiper-wrapper",
-      // slideClass: "example-slide",
-      direction: 'horizontal',
-      loop: false,
-      watchOverflow: true,
-      setWrapperSize: false,
-      spaceBetween: 0,
-      slidesPerView: 1,
-      normalizeSlideIndex: true,
-      on: {
-        slideChange: function () {
-          var newIndex = swiperDevices.realIndex + 1
-          var targetControl = $('[js-swiper-devices-nav] [data-slide="'+newIndex+'"]')
-          targetControl.siblings().removeClass('is-active')
-          targetControl.addClass('is-active')
-        },
-      }
-    })
+    // PSEUDO SLIDER (CUSTOM)
 
     _document
       .on('click', '[js-swiper-devices-nav] div', function(){
-        var targetIndex = $(this).data('slide') - 1;
-        swiperDevices.slideTo(targetIndex)
+        var targetIndex = $(this).data('slide');
+        var sliderContainer = $('[js-swiper-devices]');
+        var currentSlide = sliderContainer.find('.devices__slide.is-active');
+        var targetSlide = sliderContainer.find('.devices__slide[data-index="'+targetIndex+'"]')
+
+        // slides
+        currentSlide.addClass('is-fading-out');
+        setTimeout(function(){
+          currentSlide.removeClass('is-fading-out');
+          currentSlide.removeClass('is-active')
+        }, 250)
+
+        targetSlide.addClass('is-active')
+
+        $(this).addClass('is-active');
+        $(this).siblings().removeClass('is-active')
+
       })
 
   }
@@ -180,6 +130,45 @@ $(document).ready(function(){
   ////////////
   // UI
   ////////////
+
+  ////////////
+  // TELEPORT PLUGIN
+  ////////////
+  function initTeleport(){
+    $('[js-teleport]').each(function (i, val) {
+      var self = $(val)
+      var objHtml = $(val).html();
+      var target = $('[data-teleport-target=' + $(val).data('teleport-to') + ']');
+      var conditionMedia = $(val).data('teleport-condition').substring(1);
+      var conditionPosition = $(val).data('teleport-condition').substring(0, 1);
+
+      if (target && objHtml && conditionPosition) {
+
+        function teleport() {
+          var condition;
+
+          if (conditionPosition === "<") {
+            condition = _window.width() < conditionMedia;
+          } else if (conditionPosition === ">") {
+            condition = _window.width() > conditionMedia;
+          }
+
+          if (condition) {
+            target.html(objHtml)
+            self.html('')
+          } else {
+            self.html(objHtml)
+            target.html("")
+          }
+        }
+
+        teleport();
+        _window.on('resize', debounce(teleport, 100));
+
+
+      }
+    })
+  }
 
   ////////////
   // SCROLLMONITOR - WOW LIKE

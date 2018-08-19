@@ -4,19 +4,19 @@ header.header
     .header__wrapper
       a(href="#").header__logo
         i.icon.icon-logo
-      ul.header__menu
+      ul.header__menu(js-teleport data-teleport-to="mobile-navi" data-teleport-condition="<992")
         li
-          a(href="#about") Концепция
+          a(js-scroll-to data-target="#about") Концепция
         li
-          a(href="#benefits") Преимущества
+          a(js-scroll-to data-target="#benefits") Преимущества
         li
-          a(href="#ecosystem") Экосистема
+          a(js-scroll-to data-target="#ecosystem") Экосистема
         li
           a(href="#") Блокчейн
         li
           a(href="#") Новости
           
-      .header__cta
+      .header__cta(js-teleport data-teleport-to="mobile-cta" data-teleport-condition="<992")
         a(href="#").btn.btn-glow
           span Войти
         a(href="#").header__lang En
@@ -28,3 +28,11 @@ header.header
             .hamburger-inner
         
 // HEADER :: END
+
+.mobile-navi
+  .container
+    .mobile-navi__wrapper
+      ul.mobile-navi__menu(data-teleport-target="mobile-navi")
+        // contents to be teleported
+      .mobile-navi__cta(data-teleport-target="mobile-cta")
+        // contents to be teleported
