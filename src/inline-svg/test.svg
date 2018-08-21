@@ -344,413 +344,315 @@
   <g fill="none" fill-rule="evenodd">
     <g opacity=".2">
       <g class="anim" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M36.157 18.444c0 10.025-8.094 18.153-18.079 18.153C8.094 36.597 0 28.469 0 18.444 0 8.418 8.094.29 18.078.29c9.985 0 18.08 8.128 18.08 18.154z" stroke="url(#a)" stroke-width="2.08" transform="translate(364.216 254.858)"/>
-        <path d="M19.753 24.05h-4.466v-4.485h4.466a2.237 2.237 0 0 1 2.234 2.243c0 1.24-1 2.243-2.234 2.243zm2.234-8.972c0 1.24-1 2.244-2.234 2.244h-4.466v-4.487h4.466a2.238 2.238 0 0 1 2.234 2.243zm.714 3.366a4.478 4.478 0 0 0 1.52-3.365 4.48 4.48 0 0 0-3.35-4.339V8.35h-2.234v2.243h-2.234V8.35H14.17v2.243h-2.233v2.243h1.117v11.215h-1.117v2.243h2.233v2.242h2.234v-2.242h2.234v2.242h2.234v-2.39a4.48 4.48 0 0 0 3.35-4.338c0-1.342-.59-2.543-1.52-3.364z" fill="url(#b)" transform="translate(364.216 254.858)"/>
+        <path d="M36.157 18.444c0 10.025-8.094 18.153-18.079 18.153C8.094 36.597 0 28.469 0 18.444 0 8.418 8.094.29 18.078.29c9.985 0 18.08 8.128 18.08 18.154z" stroke="url(#a)" stroke-width="2.08" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(363.215886, 179.857658)"/>
+        <path d="M19.753 24.05h-4.466v-4.485h4.466a2.237 2.237 0 0 1 2.234 2.243c0 1.24-1 2.243-2.234 2.243zm2.234-8.972c0 1.24-1 2.244-2.234 2.244h-4.466v-4.487h4.466a2.238 2.238 0 0 1 2.234 2.243zm.714 3.366a4.478 4.478 0 0 0 1.52-3.365 4.48 4.48 0 0 0-3.35-4.339V8.35h-2.234v2.243h-2.234V8.35H14.17v2.243h-2.233v2.243h1.117v11.215h-1.117v2.243h2.233v2.242h2.234v-2.242h2.234v2.242h2.234v-2.39a4.48 4.48 0 0 0 3.35-4.338c0-1.342-.59-2.543-1.52-3.364z" fill="url(#b)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(363.215886, 179.857658)"/>
       </g>
       <g class="anim">
-        <path d="M36.157 18.154c0 10.025-8.094 18.153-18.079 18.153C8.094 36.307 0 28.179 0 18.154 0 8.128 8.094 0 18.078 0c9.985 0 18.08 8.128 18.08 18.154z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(132.132 412.883)"/>
-        <path fill="url(#c)" d="M24.978 25.991v-1.926h-9.27l.826-4.197 4.057-1.648-.705-1.79-2.908 1.183 1.346-6.84-1.858-.377-1.59 8.07-4.469 1.816.706 1.79 3.32-1.35-1.038 5.269z" transform="translate(132.132 412.883)"/>
+        <path d="M36.157 18.154c0 10.025-8.094 18.153-18.079 18.153C8.094 36.307 0 28.179 0 18.154 0 8.128 8.094 0 18.078 0c9.985 0 18.08 8.128 18.08 18.154z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(131.132383, 337.882883)"/>
+        <path fill="url(#c)" d="M24.978 25.991v-1.926h-9.27l.826-4.197 4.057-1.648-.705-1.79-2.908 1.183 1.346-6.84-1.858-.377-1.59 8.07-4.469 1.816.706 1.79 3.32-1.35-1.038 5.269z" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(131.132383, 337.882883)"/>
       </g>
       <g class="anim">
-        <path d="M36.426 18.06c0 9.974-8.095 18.06-18.079 18.06S.268 28.033.268 18.06C.268 8.085 8.363 0 18.348 0c9.983 0 18.078 8.086 18.078 18.06z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(400.642 475.261)"/>
-        <path d="M14.23 18.692l3.908 1.952a.467.467 0 0 0 .418 0l3.908-1.953-4.117 9.401-4.117-9.4zm-.082-1.078l4.2-9.588 4.198 9.588a.47.47 0 0 0-.069.028l-4.13 2.064-4.13-2.064a.47.47 0 0 0-.069-.028z" fill="url(#c)" transform="translate(400.642 475.261)"/>
+        <path d="M36.426 18.06c0 9.974-8.095 18.06-18.079 18.06S.268 28.033.268 18.06C.268 8.085 8.363 0 18.348 0c9.983 0 18.078 8.086 18.078 18.06z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(399.641548, 400.261261)"/>
+        <path d="M14.23 18.692l3.908 1.952a.467.467 0 0 0 .418 0l3.908-1.953-4.117 9.401-4.117-9.4zm-.082-1.078l4.2-9.588 4.198 9.588a.47.47 0 0 0-.069.028l-4.13 2.064-4.13-2.064a.47.47 0 0 0-.069-.028z" fill="url(#c)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(399.641548, 400.261261)"/>
       </g>
+      <path d="M36.426 18.06c0 9.974-8.095 18.06-18.079 18.06S.268 28.033.268 18.06C.268 8.085 8.363 0 18.348 0c9.983 0 18.078 8.086 18.078 18.06z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(207.105906, 152.827027)"/>
+      <path d="M14.23 18.692l3.908 1.952a.467.467 0 0 0 .418 0l3.908-1.953-4.117 9.401-4.117-9.4zm-.082-1.078l4.2-9.588 4.198 9.588a.47.47 0 0 0-.069.028l-4.13 2.064-4.13-2.064a.47.47 0 0 0-.069-.028z" fill="url(#c)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(207.105906, 152.827027)"/>
       <g class="anim">
-        <path d="M36.426 18.06c0 9.974-8.095 18.06-18.079 18.06S.268 28.033.268 18.06C.268 8.085 8.363 0 18.348 0c9.983 0 18.078 8.086 18.078 18.06z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(208.106 227.827)"/>
-        <path d="M14.23 18.692l3.908 1.952a.467.467 0 0 0 .418 0l3.908-1.953-4.117 9.401-4.117-9.4zm-.082-1.078l4.2-9.588 4.198 9.588a.47.47 0 0 0-.069.028l-4.13 2.064-4.13-2.064a.47.47 0 0 0-.069-.028z" fill="url(#c)" transform="translate(208.106 227.827)"/>
-      </g>
-      <g class="anim">
-        <path d="M36.157 18.06c0 9.974-8.094 18.06-18.078 18.06C8.094 36.12 0 28.033 0 18.06 0 8.085 8.094 0 18.079 0c9.984 0 18.078 8.086 18.078 18.06z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(407.927 75)"/>
-        <g transform="translate(417.293 87.476)" fill="url(#c)">
+        <path d="M36.157 18.06c0 9.974-8.094 18.06-18.078 18.06C8.094 36.12 0 28.033 0 18.06 0 8.085 8.094 0 18.079 0c9.984 0 18.078 8.086 18.078 18.06z" stroke="url(#a)" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(406.926680, 0.000000)"/>
+        <g transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(406.926680, 0.000000) translate(9.366599, 12.475676)" fill="url(#c)">
           <path d="M15.7 9.538l1.93-6.793.037-.176a2.53 2.53 0 0 0 .017-.282c0-1.263-.998-2.287-2.23-2.287H4.459v2.287H15.44l-1.895 6.685-.04.177H2.228v2.287h11.275c1.085 0 2.012-.801 2.197-1.898z"/>
           <path d="M0 4.574h6.687v2.287H0z"/>
         </g>
       </g>
       <g class="anim" opacity=".6" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M24.793 12.808c0 6.962-5.55 12.606-12.397 12.606C5.55 25.414 0 19.77 0 12.808 0 5.845 5.55.201 12.396.201c6.847 0 12.397 5.644 12.397 12.607z" stroke="url(#a)" stroke-width="1.456" transform="translate(203.943 131.14)"/>
-        <path d="M13.545 16.702h-3.063v-3.115h3.063c.847 0 1.532.697 1.532 1.557s-.685 1.558-1.532 1.558zm1.532-6.23c0 .86-.685 1.557-1.532 1.557h-3.063V8.913h3.063c.847 0 1.532.698 1.532 1.558zm.49 2.336a3.127 3.127 0 0 0 1.042-2.336 3.104 3.104 0 0 0-2.298-3.013v-1.66H12.78v1.557h-1.532V5.8H9.716v1.557H8.184v1.558h.767v7.788h-.767v1.558h1.532v1.557h1.532V18.26h1.532v1.557h1.531v-1.66a3.105 3.105 0 0 0 2.298-3.013c0-.931-.405-1.765-1.042-2.336z" fill="url(#b)" transform="translate(203.943 131.14)"/>
+        <path d="M24.793 12.808c0 6.962-5.55 12.606-12.397 12.606C5.55 25.414 0 19.77 0 12.808 0 5.845 5.55.201 12.396.201c6.847 0 12.397 5.644 12.397 12.607z" stroke="url(#a)" stroke-width="1.456" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(202.942974, 56.140541)"/>
+        <path d="M13.545 16.702h-3.063v-3.115h3.063c.847 0 1.532.697 1.532 1.557s-.685 1.558-1.532 1.558zm1.532-6.23c0 .86-.685 1.557-1.532 1.557h-3.063V8.913h3.063c.847 0 1.532.698 1.532 1.558zm.49 2.336a3.127 3.127 0 0 0 1.042-2.336 3.104 3.104 0 0 0-2.298-3.013v-1.66H12.78v1.557h-1.532V5.8H9.716v1.557H8.184v1.558h.767v7.788h-.767v1.558h1.532v1.557h1.532V18.26h1.532v1.557h1.531v-1.66a3.105 3.105 0 0 0 2.298-3.013c0-.931-.405-1.765-1.042-2.336z" fill="url(#b)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(202.942974, 56.140541)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.793 12.448c0 6.875-5.55 12.448-12.397 12.448C5.55 24.896 0 19.323 0 12.448S5.55 0 12.396 0c6.847 0 12.397 5.573 12.397 12.448z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(232.043 627.049)"/>
-        <path fill="url(#c)" d="M17.127 17.822v-1.32h-6.356l.567-2.878 2.782-1.13-.484-1.227-1.994.81.923-4.69-1.274-.258-1.09 5.534-3.065 1.245.484 1.227 2.277-.926-.712 3.613z" transform="translate(232.043 627.049)"/>
+        <path d="M24.793 12.448c0 6.875-5.55 12.448-12.397 12.448C5.55 24.896 0 19.323 0 12.448S5.55 0 12.396 0c6.847 0 12.397 5.573 12.397 12.448z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(231.042770, 552.048649)"/>
+        <path fill="url(#c)" d="M17.127 17.822v-1.32h-6.356l.567-2.878 2.782-1.13-.484-1.227-1.994.81.923-4.69-1.274-.258-1.09 5.534-3.065 1.245.484 1.227 2.277-.926-.712 3.613z" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(231.042770, 552.048649)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.978 12.383c0 6.84-5.55 12.384-12.397 12.384S.184 19.223.184 12.383C.184 5.544 5.734 0 12.581 0c6.846 0 12.397 5.544 12.397 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(437.067 227.827)"/>
-        <path d="M9.758 12.817l2.68 1.34a.32.32 0 0 0 .286 0l2.68-1.34-2.823 6.446-2.823-6.446zm-.056-.739l2.879-6.574 2.88 6.574a.323.323 0 0 0-.048.02l-2.832 1.414-2.832-1.415a.323.323 0 0 0-.047-.019z" fill="url(#c)" transform="translate(437.067 227.827)"/>
+        <path d="M24.978 12.383c0 6.84-5.55 12.384-12.397 12.384S.184 19.223.184 12.383C.184 5.544 5.734 0 12.581 0c6.846 0 12.397 5.544 12.397 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(436.067210, 152.827027)"/>
+        <path d="M9.758 12.817l2.68 1.34a.32.32 0 0 0 .286 0l2.68-1.34-2.823 6.446-2.823-6.446zm-.056-.739l2.879-6.574 2.88 6.574a.323.323 0 0 0-.048.02l-2.832 1.414-2.832-1.415a.323.323 0 0 0-.047-.019z" fill="url(#c)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(436.067210, 152.827027)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.793 12.383c0 6.84-5.55 12.384-12.396 12.384C5.55 24.767 0 19.223 0 12.383 0 5.544 5.55 0 12.397 0c6.846 0 12.396 5.544 12.396 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(487.022 157.132)"/>
-        <g transform="translate(493.445 165.686)" fill="url(#c)">
+        <path d="M24.793 12.383c0 6.84-5.55 12.384-12.396 12.384C5.55 24.767 0 19.223 0 12.383 0 5.544 5.55 0 12.397 0c6.846 0 12.396 5.544 12.396 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(486.022403, 82.131532)"/>
+        <g transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(486.022403, 82.131532) translate(6.422811, 8.554749)" fill="url(#c)">
           <path d="M10.766 6.54l1.323-4.658.025-.12c.008-.065.012-.13.012-.194C12.126.702 11.442 0 10.597 0h-7.54v1.568h7.53L9.288 6.152l-.028.121H1.528v1.569H9.26c.744 0 1.38-.55 1.506-1.302z"/>
           <path d="M0 3.137h4.585v1.568H0z"/>
         </g>
       </g>
       <g class="anim" opacity=".6" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M24.793 12.808c0 6.962-5.55 12.606-12.397 12.606C5.55 25.414 0 19.77 0 12.808 0 5.845 5.55.201 12.396.201c6.847 0 12.397 5.644 12.397 12.607z" stroke="url(#a)" stroke-width="1.456" transform="translate(344.442 437.834)"/>
-        <path d="M13.545 16.702h-3.063v-3.115h3.063c.847 0 1.532.697 1.532 1.557s-.685 1.558-1.532 1.558zm1.532-6.23c0 .86-.685 1.557-1.532 1.557h-3.063V8.913h3.063c.847 0 1.532.698 1.532 1.558zm.49 2.336a3.127 3.127 0 0 0 1.042-2.336 3.104 3.104 0 0 0-2.298-3.013v-1.66H12.78v1.557h-1.532V5.8H9.716v1.557H8.184v1.558h.767v7.788h-.767v1.558h1.532v1.557h1.532V18.26h1.532v1.557h1.531v-1.66a3.105 3.105 0 0 0 2.298-3.013c0-.931-.405-1.765-1.042-2.336z" fill="url(#b)" transform="translate(344.442 437.834)"/>
+        <path d="M24.793 12.808c0 6.962-5.55 12.606-12.397 12.606C5.55 25.414 0 19.77 0 12.808 0 5.845 5.55.201 12.396.201c6.847 0 12.397 5.644 12.397 12.607z" stroke="url(#a)" stroke-width="1.456" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(343.441955, 362.834234)"/>
+        <path d="M13.545 16.702h-3.063v-3.115h3.063c.847 0 1.532.697 1.532 1.557s-.685 1.558-1.532 1.558zm1.532-6.23c0 .86-.685 1.557-1.532 1.557h-3.063V8.913h3.063c.847 0 1.532.698 1.532 1.558zm.49 2.336a3.127 3.127 0 0 0 1.042-2.336 3.104 3.104 0 0 0-2.298-3.013v-1.66H12.78v1.557h-1.532V5.8H9.716v1.557H8.184v1.558h.767v7.788h-.767v1.558h1.532v1.557h1.532V18.26h1.532v1.557h1.531v-1.66a3.105 3.105 0 0 0 2.298-3.013c0-.931-.405-1.765-1.042-2.336z" fill="url(#b)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(343.441955, 362.834234)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.793 12.448c0 6.875-5.55 12.448-12.397 12.448C5.55 24.896 0 19.323 0 12.448S5.55 0 12.396 0c6.847 0 12.397 5.573 12.397 12.448z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(276.794 449.27)"/>
-        <path fill="url(#c)" d="M17.127 17.822v-1.32h-6.356l.567-2.878 2.782-1.13-.484-1.227-1.994.81.923-4.69-1.274-.258-1.09 5.534-3.065 1.245.484 1.227 2.277-.926-.712 3.613z" transform="translate(276.794 449.27)"/>
+        <path d="M24.793 12.448c0 6.875-5.55 12.448-12.397 12.448C5.55 24.896 0 19.323 0 12.448S5.55 0 12.396 0c6.847 0 12.397 5.573 12.397 12.448z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(275.794297, 374.270270)"/>
+        <path fill="url(#c)" d="M17.127 17.822v-1.32h-6.356l.567-2.878 2.782-1.13-.484-1.227-1.994.81.923-4.69-1.274-.258-1.09 5.534-3.065 1.245.484 1.227 2.277-.926-.712 3.613z" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(275.794297, 374.270270)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.978 12.383c0 6.84-5.55 12.384-12.397 12.384S.184 19.223.184 12.383C.184 5.544 5.734 0 12.581 0c6.846 0 12.397 5.544 12.397 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(437.067 406.645)"/>
-        <path d="M9.758 12.817l2.68 1.34a.32.32 0 0 0 .286 0l2.68-1.34-2.823 6.446-2.823-6.446zm-.056-.739l2.879-6.574 2.88 6.574a.323.323 0 0 0-.048.02l-2.832 1.414-2.832-1.415a.323.323 0 0 0-.047-.019z" fill="url(#c)" transform="translate(437.067 406.645)"/>
+        <path d="M24.978 12.383c0 6.84-5.55 12.384-12.397 12.384S.184 19.223.184 12.383C.184 5.544 5.734 0 12.581 0c6.846 0 12.397 5.544 12.397 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(436.067210, 331.645045)"/>
+        <path d="M9.758 12.817l2.68 1.34a.32.32 0 0 0 .286 0l2.68-1.34-2.823 6.446-2.823-6.446zm-.056-.739l2.879-6.574 2.88 6.574a.323.323 0 0 0-.048.02l-2.832 1.414-2.832-1.415a.323.323 0 0 0-.047-.019z" fill="url(#c)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(436.067210, 331.645045)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.793 12.383c0 6.84-5.55 12.384-12.396 12.384C5.55 24.767 0 19.223 0 12.383 0 5.544 5.55 0 12.397 0c6.846 0 12.396 5.544 12.396 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(395.438 366.1)"/>
-        <g transform="translate(401.86 374.654)" fill="url(#c)">
+        <path d="M24.793 12.383c0 6.84-5.55 12.384-12.396 12.384C5.55 24.767 0 19.223 0 12.383 0 5.544 5.55 0 12.397 0c6.846 0 12.396 5.544 12.396 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(394.437882, 291.099099)"/>
+        <g transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(394.437882, 291.099099) translate(6.422811, 8.554749)" fill="url(#c)">
           <path d="M10.766 6.54l1.323-4.658.025-.12c.008-.065.012-.13.012-.194C12.126.702 11.442 0 10.597 0h-7.54v1.568h7.53L9.288 6.152l-.028.121H1.528v1.569H9.26c.744 0 1.38-.55 1.506-1.302z"/>
           <path d="M0 3.137h4.585v1.568H0z"/>
         </g>
       </g>
       <g class="anim" opacity=".6" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M24.793 12.808c0 6.962-5.55 12.606-12.397 12.606C5.55 25.414 0 19.77 0 12.808 0 5.845 5.55.201 12.396.201c6.847 0 12.397 5.644 12.397 12.607z" stroke="url(#a)" stroke-width="1.456" transform="translate(72.81 321.395)"/>
-        <path d="M13.545 16.702h-3.063v-3.115h3.063c.847 0 1.532.697 1.532 1.557s-.685 1.558-1.532 1.558zm1.532-6.23c0 .86-.685 1.557-1.532 1.557h-3.063V8.913h3.063c.847 0 1.532.698 1.532 1.558zm.49 2.336a3.127 3.127 0 0 0 1.042-2.336 3.104 3.104 0 0 0-2.298-3.013v-1.66H12.78v1.557h-1.532V5.8H9.716v1.557H8.184v1.558h.767v7.788h-.767v1.558h1.532v1.557h1.532V18.26h1.532v1.557h1.531v-1.66a3.105 3.105 0 0 0 2.298-3.013c0-.931-.405-1.765-1.042-2.336z" fill="url(#b)" transform="translate(72.81 321.395)"/>
+        <path d="M24.793 12.808c0 6.962-5.55 12.606-12.397 12.606C5.55 25.414 0 19.77 0 12.808 0 5.845 5.55.201 12.396.201c6.847 0 12.397 5.644 12.397 12.607z" stroke="url(#a)" stroke-width="1.456" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(71.810591, 246.394595)"/>
+        <path d="M13.545 16.702h-3.063v-3.115h3.063c.847 0 1.532.697 1.532 1.557s-.685 1.558-1.532 1.558zm1.532-6.23c0 .86-.685 1.557-1.532 1.557h-3.063V8.913h3.063c.847 0 1.532.698 1.532 1.558zm.49 2.336a3.127 3.127 0 0 0 1.042-2.336 3.104 3.104 0 0 0-2.298-3.013v-1.66H12.78v1.557h-1.532V5.8H9.716v1.557H8.184v1.558h.767v7.788h-.767v1.558h1.532v1.557h1.532V18.26h1.532v1.557h1.531v-1.66a3.105 3.105 0 0 0 2.298-3.013c0-.931-.405-1.765-1.042-2.336z" fill="url(#b)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(71.810591, 246.394595)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.793 12.448c0 6.875-5.55 12.448-12.397 12.448C5.55 24.896 0 19.323 0 12.448S5.55 0 12.396 0c6.847 0 12.397 5.573 12.397 12.448z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 474.222)"/>
-        <path fill="url(#c)" d="M17.127 17.822v-1.32h-6.356l.567-2.878 2.782-1.13-.484-1.227-1.994.81.923-4.69-1.274-.258-1.09 5.534-3.065 1.245.484 1.227 2.277-.926-.712 3.613z" transform="translate(1 474.222)"/>
+        <path d="M24.793 12.448c0 6.875-5.55 12.448-12.397 12.448C5.55 24.896 0 19.323 0 12.448S5.55 0 12.396 0c6.847 0 12.397 5.573 12.397 12.448z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(0.000000, 399.221622)"/>
+        <path fill="url(#c)" d="M17.127 17.822v-1.32h-6.356l.567-2.878 2.782-1.13-.484-1.227-1.994.81.923-4.69-1.274-.258-1.09 5.534-3.065 1.245.484 1.227 2.277-.926-.712 3.613z" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(0.000000, 399.221622)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.978 12.383c0 6.84-5.55 12.384-12.397 12.384S.184 19.223.184 12.383C.184 5.544 5.734 0 12.581 0c6.846 0 12.397 5.544 12.397 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(237.246 519.966)"/>
-        <path d="M9.758 12.817l2.68 1.34a.32.32 0 0 0 .286 0l2.68-1.34-2.823 6.446-2.823-6.446zm-.056-.739l2.879-6.574 2.88 6.574a.323.323 0 0 0-.048.02l-2.832 1.414-2.832-1.415a.323.323 0 0 0-.047-.019z" fill="url(#c)" transform="translate(237.246 519.966)"/>
+        <path d="M24.978 12.383c0 6.84-5.55 12.384-12.397 12.384S.184 19.223.184 12.383C.184 5.544 5.734 0 12.581 0c6.846 0 12.397 5.544 12.397 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(236.246436, 444.965766)"/>
+        <path d="M9.758 12.817l2.68 1.34a.32.32 0 0 0 .286 0l2.68-1.34-2.823 6.446-2.823-6.446zm-.056-.739l2.879-6.574 2.88 6.574a.323.323 0 0 0-.048.02l-2.832 1.414-2.832-1.415a.323.323 0 0 0-.047-.019z" fill="url(#c)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(236.246436, 444.965766)"/>
       </g>
       <g class="anim" opacity=".6">
-        <path d="M24.793 12.383c0 6.84-5.55 12.384-12.396 12.384C5.55 24.767 0 19.223 0 12.383 0 5.544 5.55 0 12.397 0c6.846 0 12.396 5.544 12.396 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(228.92 334.91)"/>
-        <g transform="translate(235.343 343.465)" fill="url(#c)">
+        <path d="M24.793 12.383c0 6.84-5.55 12.384-12.396 12.384C5.55 24.767 0 19.223 0 12.383 0 5.544 5.55 0 12.397 0c6.846 0 12.396 5.544 12.396 12.383z" stroke="url(#a)" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(227.920570, 259.909910)"/>
+        <g transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(227.920570, 259.909910) translate(6.422811, 8.554749)" fill="url(#c)">
           <path d="M10.766 6.54l1.323-4.658.025-.12c.008-.065.012-.13.012-.194C12.126.702 11.442 0 10.597 0h-7.54v1.568h7.53L9.288 6.152l-.028.121H1.528v1.569H9.26c.744 0 1.38-.55 1.506-1.302z"/>
           <path d="M0 3.137h4.585v1.568H0z"/>
         </g>
       </g>
       <g class="anim" opacity=".4" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M17.562 8.71c0 4.734-3.931 8.572-8.781 8.572C3.93 17.282 0 13.444 0 8.71 0 3.975 3.931.137 8.78.137c4.85 0 8.782 3.838 8.782 8.573z" stroke="url(#a)" stroke-width="1.019" transform="translate(76.974 536.6)"/>
-        <path d="M9.595 11.357h-2.17V9.24h2.17c.599 0 1.085.474 1.085 1.06 0 .584-.486 1.058-1.085 1.058zM10.68 7.12c0 .586-.486 1.06-1.085 1.06h-2.17V6.061h2.17c.6 0 1.085.475 1.085 1.06zm.346 1.59a2.09 2.09 0 0 0 .739-1.59c0-.986-.693-1.813-1.628-2.048V3.943H9.052v1.06H7.967v-1.06H6.882v1.06H5.797v1.059h.543v5.295h-.543v1.06h1.085v1.058h1.085v-1.058h1.085v1.058h1.085v-1.128c.935-.235 1.628-1.062 1.628-2.049 0-.633-.287-1.2-.739-1.589z" fill="url(#b)" transform="translate(76.974 536.6)"/>
+        <path d="M17.562 8.71c0 4.734-3.931 8.572-8.781 8.572C3.93 17.282 0 13.444 0 8.71 0 3.975 3.931.137 8.78.137c4.85 0 8.782 3.838 8.782 8.573z" stroke="url(#a)" stroke-width="1.019" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(75.973523, 461.600000)"/>
+        <path d="M9.595 11.357h-2.17V9.24h2.17c.599 0 1.085.474 1.085 1.06 0 .584-.486 1.058-1.085 1.058zM10.68 7.12c0 .586-.486 1.06-1.085 1.06h-2.17V6.061h2.17c.6 0 1.085.475 1.085 1.06zm.346 1.59a2.09 2.09 0 0 0 .739-1.59c0-.986-.693-1.813-1.628-2.048V3.943H9.052v1.06H7.967v-1.06H6.882v1.06H5.797v1.059h.543v5.295h-.543v1.06h1.085v1.058h1.085v-1.058h1.085v1.058h1.085v-1.128c.935-.235 1.628-1.062 1.628-2.049 0-.633-.287-1.2-.739-1.589z" fill="url(#b)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(75.973523, 461.600000)"/>
       </g>
       <g class="anim" opacity=".4">
-        <path d="M17.562 8.818c0 4.869-3.931 8.817-8.781 8.817C3.93 17.635 0 13.687 0 8.818 0 3.948 3.931 0 8.78 0c4.85 0 8.782 3.948 8.782 8.818z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(232.043 431.596)"/>
-        <path fill="url(#c)" d="M12.132 12.624v-.935H7.629l.402-2.039 1.97-.8-.342-.87-1.413.575.654-3.322-.902-.183-.772 3.92-2.171.881.343.87 1.612-.656-.504 2.56z" transform="translate(232.043 431.596)"/>
+        <path d="M17.562 8.818c0 4.869-3.931 8.817-8.781 8.817C3.93 17.635 0 13.687 0 8.818 0 3.948 3.931 0 8.78 0c4.85 0 8.782 3.948 8.782 8.818z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(231.042770, 356.596396)"/>
+        <path fill="url(#c)" d="M12.132 12.624v-.935H7.629l.402-2.039 1.97-.8-.342-.87-1.413.575.654-3.322-.902-.183-.772 3.92-2.171.881.343.87 1.612-.656-.504 2.56z" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(231.042770, 356.596396)"/>
       </g>
       <g class="anim" opacity=".4">
-        <path d="M17.692 8.772c0 4.844-3.931 8.772-8.78 8.772-4.85 0-8.782-3.928-8.782-8.772C.13 3.927 4.062 0 8.912 0c4.849 0 8.78 3.927 8.78 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(432.904 325.553)"/>
-        <path d="M6.912 9.079l1.898.948c.064.032.139.032.203 0l1.898-.948-2 4.566-2-4.566zm-.04-.524l2.04-4.657 2.039 4.657a.229.229 0 0 0-.034.014L8.911 9.57 6.905 8.57a.229.229 0 0 0-.033-.014z" fill="url(#c)" transform="translate(432.904 325.553)"/>
+        <path d="M17.692 8.772c0 4.844-3.931 8.772-8.78 8.772-4.85 0-8.782-3.928-8.782-8.772C.13 3.927 4.062 0 8.912 0c4.849 0 8.78 3.927 8.78 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(431.904277, 250.553153)"/>
+        <path d="M6.912 9.079l1.898.948c.064.032.139.032.203 0l1.898-.948-2 4.566-2-4.566zm-.04-.524l2.04-4.657 2.039 4.657a.229.229 0 0 0-.034.014L8.911 9.57 6.905 8.57a.229.229 0 0 0-.033-.014z" fill="url(#c)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(431.904277, 250.553153)"/>
       </g>
       <g class="anim" opacity=".4">
-        <path d="M17.562 8.772c0 4.844-3.931 8.772-8.78 8.772C3.931 17.544 0 13.616 0 8.772 0 3.927 3.931 0 8.781 0c4.85 0 8.781 3.927 8.781 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(301.772 292.285)"/>
-        <g transform="translate(306.321 298.344)" fill="url(#c)">
+        <path d="M17.562 8.772c0 4.844-3.931 8.772-8.78 8.772C3.931 17.544 0 13.616 0 8.772 0 3.927 3.931 0 8.781 0c4.85 0 8.781 3.927 8.781 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(300.771894, 217.284685)"/>
+        <g transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(300.771894, 217.284685) translate(4.549491, 6.059614)" fill="url(#c)">
           <path d="M7.626 4.633l.937-3.3.018-.085c.005-.046.008-.091.008-.137C8.59.497 8.104 0 7.507 0H2.165v1.11H7.5l-.92 3.248-.02.086H1.083v1.11h5.476c.527 0 .978-.389 1.067-.921z"/>
           <path d="M0 2.222h3.248v1.111H0z"/>
         </g>
       </g>
       <g class="anim" opacity=".4">
-        <path d="M17.562 8.772c0 4.844-3.931 8.772-8.78 8.772C3.931 17.544 0 13.616 0 8.772 0 3.927 3.931 0 8.781 0c4.85 0 8.781 3.927 8.781 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(336.116 196.638)"/>
-        <g transform="translate(340.666 202.697)" fill="url(#c)">
+        <path d="M17.562 8.772c0 4.844-3.931 8.772-8.78 8.772C3.931 17.544 0 13.616 0 8.772 0 3.927 3.931 0 8.781 0c4.85 0 8.781 3.927 8.781 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(335.116090, 121.637838)"/>
+        <g transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(335.116090, 121.637838) translate(4.549491, 6.059614)" fill="url(#c)">
           <path d="M7.626 4.633l.937-3.3.018-.085c.005-.046.008-.091.008-.137C8.59.497 8.104 0 7.507 0H2.165v1.11H7.5l-.92 3.248-.02.086H1.083v1.11h5.476c.527 0 .978-.389 1.067-.921z"/>
           <path d="M0 2.222h3.248v1.111H0z"/>
         </g>
       </g>
       <g class="anim" opacity=".4">
-        <path d="M17.692 8.772c0 4.844-3.931 8.772-8.78 8.772-4.85 0-8.782-3.928-8.782-8.772C.13 3.927 4.062 0 8.912 0c4.849 0 8.78 3.927 8.78 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(335.075 373.377)"/>
-        <path d="M6.912 9.079l1.898.948c.064.032.139.032.203 0l1.898-.948-2 4.566-2-4.566zm-.04-.524l2.04-4.657 2.039 4.657a.229.229 0 0 0-.034.014L8.911 9.57 6.905 8.57a.229.229 0 0 0-.033-.014z" fill="url(#c)" transform="translate(335.075 373.377)"/>
+        <path d="M17.692 8.772c0 4.844-3.931 8.772-8.78 8.772-4.85 0-8.782-3.928-8.782-8.772C.13 3.927 4.062 0 8.912 0c4.849 0 8.78 3.927 8.78 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(334.075356, 298.376577)"/>
+        <path d="M6.912 9.079l1.898.948c.064.032.139.032.203 0l1.898-.948-2 4.566-2-4.566zm-.04-.524l2.04-4.657 2.039 4.657a.229.229 0 0 0-.034.014L8.911 9.57 6.905 8.57a.229.229 0 0 0-.033-.014z" fill="url(#c)" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(334.075356, 298.376577)"/>
       </g>
       <g class="anim" opacity=".4">
-        <path d="M17.562 8.772c0 4.844-3.931 8.772-8.78 8.772C3.931 17.544 0 13.616 0 8.772 0 3.927 3.931 0 8.781 0c4.85 0 8.781 3.927 8.781 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(354.85 505.41)"/>
-        <g transform="translate(359.399 511.47)" fill="url(#c)">
+        <path d="M17.562 8.772c0 4.844-3.931 8.772-8.78 8.772C3.931 17.544 0 13.616 0 8.772 0 3.927 3.931 0 8.781 0c4.85 0 8.781 3.927 8.781 8.772z" stroke="url(#a)" stroke-width="1.019" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(353.849287, 430.410811)"/>
+        <g transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(0.000000, 56.000000) translate(353.849287, 430.410811) translate(4.549491, 6.059614)" fill="url(#c)">
           <path d="M7.626 4.633l.937-3.3.018-.085c.005-.046.008-.091.008-.137C8.59.497 8.104 0 7.507 0H2.165v1.11H7.5l-.92 3.248-.02.086H1.083v1.11h5.476c.527 0 .978-.389 1.067-.921z"/>
           <path d="M0 2.222h3.248v1.111H0z"/>
         </g>
       </g>
     </g>
     <g opacity=".3">
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#d)" xlink:href="#e"/>
-          <use fill="url(#b)" xlink:href="#e"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#d)" xlink:href="#e"/>
+        <use fill="url(#b)" xlink:href="#e"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#f)" xlink:href="#g"/>
-          <use fill="url(#b)" xlink:href="#g"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#f)" xlink:href="#g"/>
+        <use fill="url(#b)" xlink:href="#g"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#h)" xlink:href="#i"/>
-          <use fill="url(#b)" xlink:href="#i"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#h)" xlink:href="#i"/>
+        <use fill="url(#b)" xlink:href="#i"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#j)" xlink:href="#k"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#k"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#j)" xlink:href="#k"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#k"/>
       </g>
-      <g class="anim">
-        <g transform="scale(-1 1) rotate(14 -453.681 -4814.925)">
-          <use fill="#000" filter="url(#l)" xlink:href="#m"/>
-          <use fill="url(#b)" xlink:href="#m"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000) translate(234.189853, 147.698664) rotate(14.000000) translate(-234.189853, -147.698664)">
+        <use fill="#000" filter="url(#l)" xlink:href="#m"/>
+        <use fill="url(#b)" xlink:href="#m"/>
       </g>
-      <g class="anim">
-        <g transform="scale(-1 1) rotate(14 -268.893 -4670.756)">
-          <use fill="#000" filter="url(#n)" xlink:href="#o"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#o"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000) translate(418.978525, 291.867119) rotate(14.000000) translate(-418.978525, -291.867119)">
+        <use fill="#000" filter="url(#n)" xlink:href="#o"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#o"/>
       </g>
-      <g class="anim">
-        <g transform="scale(-1 1) rotate(14 -339.329 -4586.847)">
-          <use fill="#000" filter="url(#p)" xlink:href="#q"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#q"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000) translate(348.542733, 375.776230) rotate(14.000000) translate(-348.542733, -375.776230)">
+        <use fill="#000" filter="url(#p)" xlink:href="#q"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#q"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#r)" xlink:href="#s"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#s"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#r)" xlink:href="#s"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#s"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#t)" xlink:href="#u"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#u"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#t)" xlink:href="#u"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#u"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#v)" xlink:href="#w"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#w"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#v)" xlink:href="#w"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#w"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#x)" xlink:href="#y"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#y"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#x)" xlink:href="#y"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#y"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#z)" xlink:href="#A"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#A"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#z)" xlink:href="#A"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#A"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#B)" xlink:href="#C"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#C"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#B)" xlink:href="#C"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#C"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#D)" xlink:href="#E"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#E"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#D)" xlink:href="#E"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#E"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#F)" xlink:href="#G"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#G"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#F)" xlink:href="#G"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#G"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#H)" xlink:href="#I"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#I"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#H)" xlink:href="#I"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#I"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#J)" xlink:href="#K"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#K"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#J)" xlink:href="#K"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#K"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#L)" xlink:href="#M"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#M"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#L)" xlink:href="#M"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#M"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#N)" xlink:href="#O"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#O"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#N)" xlink:href="#O"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#O"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#P)" xlink:href="#Q"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#Q"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#P)" xlink:href="#Q"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#Q"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#R)" xlink:href="#S"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#S"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#R)" xlink:href="#S"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#S"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#T)" xlink:href="#U"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#U"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#T)" xlink:href="#U"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#U"/>
       </g>
-      <g class="anim">
-          <g transform="matrix(-1 0 0 1 1221 19)">
-            <use fill="#000" filter="url(#V)" xlink:href="#W"/>
-            <use fill-opacity=".71" fill="url(#b)" xlink:href="#W"/>
-          </g>
-        </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 1221 19)">
-          <use fill="#000" filter="url(#X)" xlink:href="#Y"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#Y"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#V)" xlink:href="#W"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#W"/>
+      </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(1003.000000, 228.500000) scale(-1, 1) rotate(-360.000000) translate(-1003.000000, -228.500000) translate(786.000000, 0.000000)">
+        <use fill="#000" filter="url(#X)" xlink:href="#Y"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#Y"/>
       </g>
     </g>
-    <g opa
-      <g class="anim">city=".3">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#Z)" xlink:href="#aa"/>
-          <use fill="url(#b)" xlink:href="#aa"/>
-        </g>
+    <g opacity=".3">
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#Z)" xlink:href="#aa"/>
+        <use fill="url(#b)" xlink:href="#aa"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#ab)" xlink:href="#ac"/>
-          <use fill="url(#b)" xlink:href="#ac"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#ab)" xlink:href="#ac"/>
+        <use fill="url(#b)" xlink:href="#ac"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#ad)" xlink:href="#ae"/>
-          <use fill="url(#b)" xlink:href="#ae"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#ad)" xlink:href="#ae"/>
+        <use fill="url(#b)" xlink:href="#ae"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#af)" xlink:href="#ag"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#ag"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#af)" xlink:href="#ag"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#ag"/>
       </g>
-      <g class="anim">
-        <g transform="scale(-1 1) rotate(14 -778.73 -2075.796)">
-          <use fill="#000" filter="url(#ah)" xlink:href="#ai"/>
-          <use fill="url(#b)" xlink:href="#ai"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000) translate(234.189853, 147.698664) rotate(14.000000) translate(-234.189853, -147.698664)">
+        <use fill="#000" filter="url(#ah)" xlink:href="#ai"/>
+        <use fill="url(#b)" xlink:href="#ai"/>
       </g>
-      <g class="anim">
-        <g transform="scale(-1 1) rotate(14 -593.94 -1931.627)">
-          <use fill="#000" filter="url(#aj)" xlink:href="#ak"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#ak"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000) translate(418.978525, 291.867119) rotate(14.000000) translate(-418.978525, -291.867119)">
+        <use fill="#000" filter="url(#aj)" xlink:href="#ak"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#ak"/>
       </g>
-      <g class="anim">
-        <g transform="scale(-1 1) rotate(14 -664.376 -1847.718)">
-          <use fill="#000" filter="url(#al)" xlink:href="#am"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#am"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000) translate(348.542733, 375.776230) rotate(14.000000) translate(-348.542733, -375.776230)">
+        <use fill="#000" filter="url(#al)" xlink:href="#am"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#am"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#an)" xlink:href="#ao"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#ao"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#an)" xlink:href="#ao"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#ao"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#ap)" xlink:href="#aq"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aq"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#ap)" xlink:href="#aq"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aq"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#ar)" xlink:href="#as"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#as"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#ar)" xlink:href="#as"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#as"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#at)" xlink:href="#au"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#au"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#at)" xlink:href="#au"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#au"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#av)" xlink:href="#aw"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aw"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#av)" xlink:href="#aw"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aw"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#ax)" xlink:href="#ay"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#ay"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#ax)" xlink:href="#ay"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#ay"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#az)" xlink:href="#aA"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#aA"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#az)" xlink:href="#aA"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#aA"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aB)" xlink:href="#aC"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aC"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aB)" xlink:href="#aC"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aC"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aD)" xlink:href="#aE"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aE"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aD)" xlink:href="#aE"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aE"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aF)" xlink:href="#aG"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aG"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aF)" xlink:href="#aG"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aG"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aH)" xlink:href="#aI"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aI"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aH)" xlink:href="#aI"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aI"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aJ)" xlink:href="#aK"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aK"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aJ)" xlink:href="#aK"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aK"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aL)" xlink:href="#aM"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#aM"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aL)" xlink:href="#aM"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#aM"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aN)" xlink:href="#aO"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aO"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aN)" xlink:href="#aO"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aO"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aP)" xlink:href="#aQ"/>
-          <use fill-opacity=".3" fill="url(#b)" xlink:href="#aQ"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aP)" xlink:href="#aQ"/>
+        <use fill-opacity=".3" fill="url(#b)" xlink:href="#aQ"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aR)" xlink:href="#aS"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#aS"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aR)" xlink:href="#aS"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#aS"/>
       </g>
-      <g class="anim">
-        <g transform="matrix(-1 0 0 1 568 179)">
-          <use fill="#000" filter="url(#aT)" xlink:href="#aU"/>
-          <use fill-opacity=".71" fill="url(#b)" xlink:href="#aU"/>
-        </g>
+      <g class="anim" transform="translate(-8.000000, -238.000000) translate(9.000000, 257.000000) translate(350.000000, 388.500000) scale(-1, 1) rotate(-360.000000) translate(-350.000000, -388.500000) translate(133.000000, 160.000000)">
+        <use fill="#000" filter="url(#aT)" xlink:href="#aU"/>
+        <use fill-opacity=".71" fill="url(#b)" xlink:href="#aU"/>
       </g>
     </g>
   </g>

@@ -9,7 +9,7 @@ block content
     .container
       .hero__wrapper
         .hero__background
-          .hero__floating
+          .hero__floating(js-bg-animations)
             include ../inline-svg/hero-floating.svg
           .hero__oval
             img(src='img/hero-oval.png' srcset='img/hero-oval@2x.png 2x')
@@ -20,6 +20,8 @@ block content
                 a(href="#").hero__join
                   .hero__join-bg
                     span Join
+          .hero__bg(js-hero-bg)
+            img(src='img/hero-bg.svg')
               
         .hero__contents
           h1.h1-title.wow Play & Earn
@@ -27,10 +29,12 @@ block content
       
       .scroll-down(js-scroll-to data-target="#about").wow
         +icon('ico-down-arrow')
-  
-  
+      
+
   // ABOUT :: START
   .about#about
+    .about__bg(js-about-bg)
+      img(src='img/about-benefits-bg.svg')
     .container
       .about__wrapper
         .about__contents

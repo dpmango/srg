@@ -15,6 +15,9 @@ $(document).ready(function(){
     initTeleport();
     initSliders();
     initScrollMonitor();
+    setBackgrounds();
+    initBgParticlesAnimation();
+    _window.on('resize', debounce(setBackgrounds, 200))
   }
 
   // this is a master function which should have all functionality
@@ -31,7 +34,7 @@ $(document).ready(function(){
 
     // Viewport units buggyfill
     window.viewportUnitsBuggyfill.init({
-      force: false,
+      force: true,
       refreshDebounceWait: 150,
       appendToBody: true
     });
@@ -98,8 +101,88 @@ $(document).ready(function(){
 
 
   ////////////
-  // UI
+  // BACKGROUNDS
   ////////////
+  function setBackgrounds(){
+    var hero = $('[js-hero-bg]');
+    var heroContainer = hero.closest('.container');
+    var wWidth = _window.width();
+    var designBP = 1440
+
+    // hero part
+    // svg is positioned to very left on 1440, should calc the container offset / 2
+    // on wider screens, coeff should modify the offset
+    var heroContainerDiff = (heroContainer.outerWidth() - wWidth) / 2
+    var heroWideModifier = wWidth > designBP ? 1 : 1
+    var heroCalcLeft = Math.floor(heroContainerDiff - 30) * heroWideModifier
+
+    hero.css({
+      'left': heroCalcLeft
+    })
+
+    console.log( wWidth )
+
+  }
+
+  ////////////
+  // BACKGROUND ANIMATIONS
+  ////////////
+
+  function radomVal(min,max){
+    var negativeOrPositive = Math.random() > .5 ? -1 : 1
+    var number = Math.random() * max
+    number = number < min ? min : number
+    number * negativeOrPositive // make positive or negative
+
+    return Math.floor(number)
+  }
+  function initBgParticlesAnimation(){
+    var svg = $('[js-bg-animations] svg');
+
+    svg.find('.anim').each(function(i, el){
+
+      var timeline = anime.timeline({
+        targets: el,
+        easing: 'easeInCubic', // linear ?
+        direction: 'alternate',
+        duration: 2500,
+        elasticity: 1000,
+        loop: true
+      })
+
+      var startPoint = []
+      timeline
+        .add({
+          translateX: radomVal(10,70),
+          translateY: radomVal(10,50),
+        })
+        .add({
+          translateX: radomVal(10,70),
+          translateY: radomVal(10,50),
+        })
+        .add({
+          translateX: radomVal(10,70),
+          translateY: radomVal(10,50),
+        })
+        
+      // anime({
+      //   targets: el,
+      //   // translateX: {
+      //   //   value: '+=150' // relative
+      //   // },
+      //   translateX: radomVal(10,70),
+      //   translateY: radomVal(10,50),
+      //   // rotate: radomVal(5,70),
+      //   easing: 'linear',
+      //   direction: 'alternate',
+      //   duration: 10000,
+      //   elasticity: 100,
+      //   loop: true
+      // });
+
+    });
+  }
+
 
   ////////////
   // TELEPORT PLUGIN
@@ -113,7 +196,6 @@ $(document).ready(function(){
       var conditionPosition = $(val).data('teleport-condition').substring(0, 1);
 
       if (target && objHtml && conditionPosition) {
-
         function teleport() {
           var condition;
 
@@ -134,8 +216,6 @@ $(document).ready(function(){
 
         teleport();
         _window.on('resize', debounce(teleport, 100));
-
-
       }
     })
   }

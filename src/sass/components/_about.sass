@@ -1,7 +1,21 @@
 .about
   position: relative
   z-index: 3
-  padding: 50px 0
+  padding: 80px 0
+  &__bg
+    position: absolute
+    z-index: 1
+    top: -50px
+    left: 0
+    right: 0
+    width: 100%
+    // will overlay the benefits section too
+    // min-height: 2329px
+    img
+      width: 100%
+  > .container
+    position: relative
+    z-index: 2
   &__wrapper
     display: flex
     margin-left: -30px
