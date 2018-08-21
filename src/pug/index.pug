@@ -79,7 +79,8 @@ block content
 
         .benefits__center
           .benefits__cube
-            img(src='img/cube.png' srcset='img/cube@2x.png 2x')
+            #cube
+            //- img(src='img/cube.png' srcset='img/cube@2x.png 2x')
           
         .benefits__right
           .h3-title Преимущества<br>для разработчиков
@@ -129,6 +130,8 @@ block content
   // DEVICES :: START
   .devices#devices
     .devices__bg
+      img(src='img/devices-bg.svg')
+    .devices__bg-shapes
       img(src='img/devices_bg-shapes.svg')
     .devices__bg-oval
       img(src='img/devices_bg-oval.svg')
@@ -143,9 +146,9 @@ block content
             .devices__slide(data-index="2")
               img(src='img/devices_mac.png' srcset='img/devices_mac@2x.png 2x')
             .devices__slide(data-index="3")
-              img(src='img/devices_2.png' srcset='img/devices_2@2x.png 2x')
+              img(src='img/devices_android.png' srcset='img/devices_android@2x.png 2x')
             .devices__slide(data-index="4")
-              img(src='img/devices_3.png' srcset='img/devices_3@2x.png 2x')
+              img(src='img/devices_windows.png' srcset='img/devices_windows@2x.png 2x')
 
         .devices__contents
           h1.h1-title SRG Blockchain

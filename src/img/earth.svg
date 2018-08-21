@@ -44,10 +44,10 @@
     </defs>
     <g id="Desktop-HD-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-5" transform="translate(-9.000000, 0.000000)">
-            <mask id="mask-2" fill="white">
+            <!-- <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
-            </mask>
-            <use id="Mask" fill="#1F1F1F" xlink:href="#path-1"></use>
+            </mask> -->
+            <!-- <use id="Mask" fill="#1F1F1F" xlink:href="#path-1"></use> -->
             <circle id="Oval" fill-opacity="0.300000012" fill="url(#radialGradient-3)" filter="url(#filter-4)" mask="url(#mask-2)" cx="967" cy="1376" r="926"></circle>
             <g id="Page-1" mask="url(#mask-2)">
                 <g transform="translate(400.000000, 545.000000)">

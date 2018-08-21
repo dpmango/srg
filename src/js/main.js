@@ -18,6 +18,7 @@ $(document).ready(function(){
     setBackgrounds();
     initBgParticlesAnimation();
     _window.on('resize', debounce(setBackgrounds, 200))
+    initLottie();
   }
 
   // this is a master function which should have all functionality
@@ -136,6 +137,7 @@ $(document).ready(function(){
 
     return Math.floor(number)
   }
+
   function initBgParticlesAnimation(){
     var svg = $('[js-bg-animations] svg');
 
@@ -143,14 +145,13 @@ $(document).ready(function(){
 
       var timeline = anime.timeline({
         targets: el,
-        easing: 'easeInCubic', // linear ?
+        easing: 'linear', // linear ?
         direction: 'alternate',
         duration: 2500,
         elasticity: 1000,
         loop: true
       })
 
-      var startPoint = []
       timeline
         .add({
           translateX: radomVal(10,70),
@@ -164,7 +165,7 @@ $(document).ready(function(){
           translateX: radomVal(10,70),
           translateY: radomVal(10,50),
         })
-        
+
       // anime({
       //   targets: el,
       //   // translateX: {
@@ -181,6 +182,27 @@ $(document).ready(function(){
       // });
 
     });
+  }
+
+  function initLottie(){
+    if ( $('#about-anim').length > 0 ) {
+      // var animation_1 = lottie.loadAnimation({
+      //   container: document.getElementById('about-anim'),
+      //   renderer: 'svg',
+      //   loop: true,
+      //   autoplay: true,
+      //   path: '/animation-json/about-anim.json'
+      // })
+    }
+    if ( $('#cube').length > 0 ) {
+      var animation_2 = lottie.loadAnimation({
+        container: document.getElementById('cube'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '/animation-json/cube.json'
+      })
+    }
   }
 
 
