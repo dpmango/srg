@@ -1,12 +1,16 @@
 .ecosystem
   position: relative
-  z-index: 3
+  z-index: 4
   padding: 200px 0
+  .h1-title
+    padding-left: 60px
   &__wrapper
     position: relative
 
   &__image
-    margin-top: 80px
+    margin-top: 90px
+    margin-left: -20px
+    // margin-right: -30px
     img
       max-width: 100%
   &__tag
@@ -14,17 +18,27 @@
     max-width: 240px
     text-align: center
     &--first
-      left: 22.8%
-      bottom: 0%
+      left: 21%
+      bottom: -10%
 
     &--second
       max-width: 165px
-      right: -.3%
-      bottom: 14.5%
+      right: 1%
+      bottom: 12%
 
   &__tag-icon
 
   &__tag-name
     color: rgba(white, .75)
-    line-height: 1.44
+    font-size: 14px
+    line-height: 1.85
     margin-top: 10px
+
+  &__floating
+    position: absolute
+    z-index: 1
+    bottom: -20%
+    right: -0px
+    svg
+      max-width: 100%
+      overflow: visible

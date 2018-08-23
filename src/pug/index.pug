@@ -9,7 +9,7 @@ block content
     .container
       .hero__wrapper
         .hero__background
-          .hero__floating(js-bg-animations)
+          .hero__floating(js-bg-animations-hero)
             include ../inline-svg/hero-floating.svg
           .hero__oval
             img(src='img/hero-oval.png' srcset='img/hero-oval@2x.png 2x')
@@ -45,7 +45,9 @@ block content
             span Download <br>presentation
         .about__image.wow
           img(src='img/devices.png' srcset='img/devices@2x.png 2x')
-          
+      
+      .about__floating(js-bg-animations-about)
+        include ../inline-svg/about-floating.svg
   
   // BENEFITS :: START
   .benefits#benefits
@@ -63,7 +65,7 @@ block content
             .benefit-card__counter 2
             .benefit-card__icon
               i.icon.icon-benefit-card
-            .benefit-card__name Возможность зарабатывать на личных и совместных игровых достижениях
+            .benefit-card__name Возможность зарабатывать <br>на личных и совместных<br> игровых достижениях
           //card
           .benefit-card
             .benefit-card__counter 3
@@ -113,7 +115,7 @@ block content
   .ecosystem#ecosystem
     .container
       .ecosystem__wrapper
-        .h1-title Единая экосистема
+        .h1-title Единая <br>экосистема
         .ecosystem__image
           img(src='img/ecosystem.png' srcset='img/ecosystem@2x.png 2x')
         // tag
@@ -127,8 +129,13 @@ block content
             i.icon.icon-card
           .ecosystem__tag-name Деньги конвертируются в GMP и попадают на счет игрока
   
+      .ecosystem__floating(js-bg-animations-ecosystem)
+        include ../inline-svg/ecosystem-floating.svg
+            
   // DEVICES :: START
   .devices#devices
+    .devices__oval
+      img(src='img/devices-oval.svg')
     .devices__bg
       img(src='img/devices-bg.svg')
     .devices__bg-shapes

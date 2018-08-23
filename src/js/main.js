@@ -115,7 +115,7 @@ $(document).ready(function(){
     // on wider screens, coeff should modify the offset
     var heroContainerDiff = (heroContainer.outerWidth() - wWidth) / 2
     var heroWideModifier = wWidth > designBP ? 1 : 1
-    var heroCalcLeft = Math.floor(heroContainerDiff - 30) * heroWideModifier
+    var heroCalcLeft = Math.floor(heroContainerDiff - 80) * heroWideModifier
 
     hero.css({
       'left': heroCalcLeft
@@ -139,7 +139,7 @@ $(document).ready(function(){
   }
 
   function initBgParticlesAnimation(){
-    var svg = $('[js-bg-animations] svg');
+    var svg = $('[js-bg-animations-hero] svg, [js-bg-animations-about] svg, [js-bg-animations-ecosystem] svg');
 
     svg.find('.anim').each(function(i, el){
 
@@ -182,6 +182,7 @@ $(document).ready(function(){
       // });
 
     });
+
   }
 
   function initLottie(){
