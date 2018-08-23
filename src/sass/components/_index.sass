@@ -17,6 +17,35 @@
   line-height: 1.625
 
 .background-lines
+  &__desktop
+    display: block
+    +r($desktop)
+      .background-lines
+        &__1, &__2, &__3
+          top: 25%
+  &__mobile
+    display: none
+    margin-right: -60px
+    +r($desktop)
+      display: block
+      .background-lines
+        &__1, &__2, &__3
+          top: -100%
+          bottom: -80%
+          z-index: 3
+        &__1
+          .background-lines__wrapper
+            &::after
+              right: -60px
+        &__2
+          .background-lines__wrapper
+            &::after
+              right: 70px
+        &__3
+          .background-lines__wrapper
+            &::after
+              right: 200px
+
   &__1, &__2, &__3
     pointer-events: none
     position: absolute
@@ -55,9 +84,13 @@
       &::after
         right: 150px
         border-color: rgba(white, .1)
+        +r($desktop)
+          right: 130px
   &__3
     border-color: rgba(white, .05)
     .background-lines__wrapper
       &::after
         right: 300px
         border-color: rgba(white, .05)
+        +r($desktop)
+          right: 260px

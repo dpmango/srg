@@ -9,6 +9,14 @@ block content
     .container
       .hero__wrapper
         .hero__background
+          //BACKGROUND LINES
+          .background-lines__mobile
+            .background-lines__1
+              .background-lines__wrapper
+            .background-lines__2
+              .background-lines__wrapper
+            .background-lines__3
+              .background-lines__wrapper
           .hero__floating(js-bg-animations-hero)
             include ../inline-svg/hero-floating.svg
           .hero__oval
@@ -35,6 +43,7 @@ block content
   .about#about
     .about__bg(js-about-bg)
       img(src='img/about-benefits-bg.svg')
+      img.about__bg-mobile-image(src='img/about-benefits-bg-mobile.svg')
     .container
       .about__wrapper
         .about__contents
@@ -147,6 +156,8 @@ block content
         .devices__slider
           .devices__slider-bg
             img(src='img/devices_bg-shapes2.svg')
+          .devices__slider-bg.devices__slider-bg--mobile
+            img(src='img/devices-bg-mobile.svg')
           .devices__slider-container(js-swiper-devices)
             .devices__slide.is-active(data-index="1")
               img(src='img/devices_ios.png' srcset='img/devices_ios@2x.png 2x')
@@ -170,11 +181,12 @@ block content
             .devices__nav-el(data-slide="4")
               span Windows
 
+
   //BACKGROUND LINES
-  .background-lines__1
-    .background-lines__wrapper
-  .background-lines__2
-    .background-lines__wrapper
-  .background-lines__3
-    .background-lines__wrapper
-    
+  .background-lines__desktop
+    .background-lines__1
+      .background-lines__wrapper
+    .background-lines__2
+      .background-lines__wrapper
+    .background-lines__3
+      .background-lines__wrapper

@@ -16,7 +16,7 @@ $(document).ready(function(){
     initSliders();
     initScrollMonitor();
     setBackgrounds();
-    initBgParticlesAnimation();
+    // initBgParticlesAnimation();
     _window.on('resize', debounce(setBackgrounds, 200))
     initLottie();
   }
@@ -114,14 +114,20 @@ $(document).ready(function(){
     // svg is positioned to very left on 1440, should calc the container offset / 2
     // on wider screens, coeff should modify the offset
     var heroContainerDiff = (heroContainer.outerWidth() - wWidth) / 2
-    var heroWideModifier = wWidth > designBP ? 1 : 1
-    var heroCalcLeft = Math.floor(heroContainerDiff - 80) * heroWideModifier
+    var heroWideModifier = 1
+    var heroCalcLeft
+    if ( wWidth > designBP ){
 
+    }
+
+    if ( wWidth <= 992 ){
+      heroCalcLeft = ((wWidth + 80) / 2) * -1
+    } else {
+      heroCalcLeft = Math.floor(heroContainerDiff - 80) * heroWideModifier
+    }
     hero.css({
       'left': heroCalcLeft
     })
-
-    console.log( wWidth )
 
   }
 

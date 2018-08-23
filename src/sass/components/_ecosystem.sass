@@ -20,7 +20,6 @@
     &--first
       left: 21%
       bottom: -10%
-
     &--second
       max-width: 165px
       right: 1%
@@ -42,3 +41,32 @@
     svg
       max-width: 100%
       overflow: visible
+
++r($wide)
+  .ecosystem
+    .h1-title
+      padding-left: 0
+
++r($desktop)
+  .ecosystem
+    padding-top: 60px
+    &__wrapper
+      margin-left: -40px
+      margin-right: 20px
+      // margin-right: -50px
+      .h1-title
+        font-size: 66px
+    &__image
+      margin-top: 60px
+      margin-left: 0
+    &__tag
+      &--first
+        left: 15%
+        bottom: -25%
+
+      &--second
+        right: -6%
+        bottom: -3%
+    &__floating
+      bottom: -5%
+      right: -50px
