@@ -127,32 +127,6 @@
       font-size: 17px
       text-transform: uppercase
 
-@keyframes heroJoinBefore
-  0%
-    transform: translate(-50%,-50%) scale(1)
-    opacity: .2
-  100%
-    transform: translate(-50%,-50%) scale(1.2)
-    opacity: 0
-
-
-@keyframes heroJoinAfter
-  0%
-    transform: translate(-50%,-50%) scale(1)
-    opacity: .2
-  100%
-    transform: translate(-50%,-50%) scale(1.3)
-    opacity: 0
-
-@keyframes floatAnim
-  0%
-    transform: translate(0,0)
-  25%
-    transform: translate(30px, 10px)
-  50%
-    transform: translate(50px, 30px)
-  100%
-    transform: translate(0px, 0px)
 
 +r($wide)
   .hero
@@ -179,7 +153,6 @@
       // right: 0
       transform: rotate(-14deg)
 
-
     &__contents
       max-width: 100%
       flex: 0 0 auto
@@ -195,7 +168,6 @@
       max-width: 470px
       right: auto
       left: 50px
-
       transform: translate(30px, -50%)
 
     &__join
@@ -208,3 +180,39 @@
         size: 73px
       span
         font-size: 12px
+
++r($mobile)
+  .hero
+    &__wrapper
+      padding: 90px 0 50px
+      min-height: auto !important
+
+    &__background
+      min-height: 300px
+      margin-left: 0px
+      margin-right: -20px
+    &__oval
+      max-width: 360px
+    &__floating
+      left: -30%
+    &__contents
+      .h1-title
+        font-size: 56px
+      .t1-paragraph
+        margin-top: 20px
+
+    &__remote
+      max-width: 280px
+      left: 10px
+      transform: translate(20px, -50%)
+
+    &__join
+      size: 29px
+      &-bg
+        size: 29px
+      &::before
+        size: 36px
+      &::after
+        size: 44px
+      span
+        font-size: 8px

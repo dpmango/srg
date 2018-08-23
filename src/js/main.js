@@ -120,8 +120,10 @@ $(document).ready(function(){
 
     }
 
-    if ( wWidth <= 992 ){
+    if ( wWidth <= 992 && wWidth > 568 ){
       heroCalcLeft = ((wWidth + 80) / 2) * -1
+    } else if ( wWidth <= 568 ){
+      heroCalcLeft = (wWidth * 1.6) * -1
     } else {
       heroCalcLeft = Math.floor(heroContainerDiff - 80) * heroWideModifier
     }

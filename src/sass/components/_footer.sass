@@ -38,6 +38,7 @@
         color: white
 
   &__contacts
+    flex: 0 0 auto
     margin-left: auto
     display: flex
     flex-direction: column
@@ -50,6 +51,7 @@
     transition: .25s $ease
     .ico
       font-size: 54px
+      flex: 0 0 auto
     span
       display: inline-block
       margin-left: 22px
@@ -126,8 +128,50 @@
         transform-origin: right center
       span
 
++r($mobile)
+  .footer
+    padding-left: 0
+    padding-right: 0
+    margin-left: -5px
+    margin-right: -5px
+    // padding-bottom: 30px
+    &__socials
+      flex-basis: 180px
+      a
+        margin-bottom: 15px
+        .ico
+          font-size: 31px
 
+    &__contacts
+      flex-basis: 110px
+    &__contact
+      margin-bottom: 15px
+      .ico
+        font-size: 31px
+      span
+        font-size: 12px
+        margin-left: 10px
 
+    &__bottom
+      padding-top: 20px
+
+    &__site-name
+      display: none
+
+    &__presentation
+      text-align: right
+      max-width: 180px
+      .icon
+        flex: 0 0 auto
+        transform-origin: center center
+        margin: -14%
+        overflow: visible
+      span
+        text-align: left
+        display: inline-block
+        max-width: 120px
+        font-size: 14px
+        margin-left: 12px
 
 // earth animation
 .footer-bg
@@ -139,6 +183,7 @@
   font-size: 0
   display: flex
   flex-direction: column
+  pointer-events: none
   &__wrapper
     flex: 1 1 auto
     position: relative

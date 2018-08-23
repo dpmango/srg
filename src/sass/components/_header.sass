@@ -2,8 +2,8 @@
 .header
   position: absolute
   top: 0
-  right: 0
-  left: 0
+  right: -5px
+  left: -5px
   z-index: 9
   background: transparent
   &__wrapper
@@ -97,5 +97,9 @@
 
 +r($mobile)
   .header
+    &__wrapper
+      padding-top: 20px
     &__logo
-      font-size: 30px
+      padding-left: 0
+      margin-left: 0
+      // font-size: 30px
