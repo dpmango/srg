@@ -84,6 +84,11 @@ $(document).ready(function(){
         var currentSlide = sliderContainer.find('.devices__slide.is-active');
         var targetSlide = sliderContainer.find('.devices__slide[data-index="'+targetIndex+'"]')
 
+        if ( $(this).is('.is-active') ){
+        // if ( currentSlide.data('index') == targetSlide.data('index') ){
+          return
+        }
+
         // slides
         currentSlide.addClass('is-fading-out');
         setTimeout(function(){
