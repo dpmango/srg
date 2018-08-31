@@ -18,7 +18,7 @@ $(document).ready(function(){
     initSliders();
     initScrollMonitor();
     setBackgrounds();
-    // initBgParticlesAnimation();
+    initBgParticlesAnimation();
     _window.on('resize', debounce(setBackgrounds, 200))
     initLottie();
   }
@@ -226,6 +226,14 @@ $(document).ready(function(){
       //   path: '/animation-json/data.json'
       // })
     }
+
+    var schema = lottie.loadAnimation({
+      container: document.getElementById('schema'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: '/animation-json/schema.json'
+    })
   }
 
 
