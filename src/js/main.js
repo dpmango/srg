@@ -6,6 +6,8 @@ $(document).ready(function(){
 
   var _window = $(window);
   var _document = $(document);
+  var easingSwing = [.02, .01, .47, 1]; // default jQuery easing for anime.js
+  var moveEasing = [0.77, 0, 0.175, 1];
 
   ////////////
   // READY - triggered when PJAX DONE
@@ -49,8 +51,15 @@ $(document).ready(function(){
   	})
     .on('click', '[js-scroll-to]', function() { // section scroll
       var el = $(this).data('target');
-      $('body, html').animate({
-          scrollTop: $(el).offset().top}, 1000);
+      var offset = $(el).offset().top - 25
+
+      anime({
+        targets: "html, body",
+        scrollTop: offset,
+        easing: moveEasing, // swing
+        duration: 800
+      });
+
       closeMobileMenu();
       return false;
     })
@@ -209,13 +218,13 @@ $(document).ready(function(){
       // })
     }
     if ( $('#cube').length > 0 ) {
-      var animation_2 = lottie.loadAnimation({
-        container: document.getElementById('cube'),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        path: '/animation-json/cube.json'
-      })
+      // var animation_2 = lottie.loadAnimation({
+      //   container: document.getElementById('cube'),
+      //   renderer: 'svg',
+      //   loop: true,
+      //   autoplay: true,
+      //   path: '/animation-json/data.json'
+      // })
     }
   }
 

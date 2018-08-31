@@ -52,7 +52,7 @@ block content
           a(href="#" target="_blank").about__presentation.wow
             i.icon.icon-presentation
             span Download <br>presentation
-        .about__image.wow
+        .about__image
           img(src='img/devices.png' srcset='img/devices@2x.png 2x')
       
       .about__floating(js-bg-animations-about)
@@ -63,26 +63,26 @@ block content
     .container
       .benefits__wrapper
         .benefits__left
-          .h3-title Преимущества<br>для игроков
-          .benefit-card
+          .h3-title.wow Преимущества<br>для игроков
+          .benefit-card.wow
             .benefit-card__counter 1
             .benefit-card__icon
               i.icon.icon-benefit-person
             .benefit-card__name Персональные 5-уровневые реферальные программы
           // card
-          .benefit-card
+          .benefit-card.wow
             .benefit-card__counter 2
             .benefit-card__icon
               i.icon.icon-benefit-card
             .benefit-card__name Возможность зарабатывать <br>на личных и совместных<br> игровых достижениях
           //card
-          .benefit-card
+          .benefit-card.wow
             .benefit-card__counter 3
             .benefit-card__icon
               i.icon.icon-benefit-coin
             .benefit-card__name Монетизировать время
           //card
-          .benefit-card
+          .benefit-card.wow
             .benefit-card__counter 4
             .benefit-card__icon
               i.icon.icon-benefit-joystick
@@ -94,46 +94,46 @@ block content
             //- img(src='img/cube.png' srcset='img/cube@2x.png 2x')
           
         .benefits__right
-          .h3-title Преимущества<br>для разработчиков
+          .h3-title.wow Преимущества<br>для разработчиков
           //card
-          .benefit-card
+          .benefit-card.wow
             .benefit-card__counter I
             .benefit-card__icon
               i.icon.icon-benefit-person-plus
             .benefit-card__name Получение целевой (в том числе генерирующей контент) аудитории на старте проекта
           // card
-          .benefit-card
+          .benefit-card.wow
             .benefit-card__counter II
             .benefit-card__icon
               i.icon.icon-benefit-chart
             .benefit-card__name Доступ к специализированной игровой статистике
           //card
-          .benefit-card
+          .benefit-card.wow
             .benefit-card__counter III
             .benefit-card__icon
               i.icon.icon-benefit-like
             .benefit-card__name Удобный и понятный сервис ротации трафика по любым играм платформы
           //card
-          .benefit-card
+          .benefit-card.wow
             .benefit-card__counter IV
             .benefit-card__icon
               i.icon.icon-benefit-arrows
             .benefit-card__name Простой механизм привлечения внутреннего и внешнего трафика
 
   // ECOSYSTEM :: START
-  .ecosystem#ecosystem
+  .ecosystem
     .container
       .ecosystem__wrapper
-        .h1-title Единая <br>экосистема
+        .h1-title#ecosystem.wow Единая <br>экосистема
         .ecosystem__image
           img(src='img/ecosystem.png' srcset='img/ecosystem@2x.png 2x')
         // tag
-        .ecosystem__tag.ecosystem__tag--first
+        .ecosystem__tag.ecosystem__tag--first.wow
           .ecosystem__tag-icon
             i.icon.icon-time
           .ecosystem__tag-name Получает бонусы за время, проведенное в игре
         // tag
-        .ecosystem__tag.ecosystem__tag--second
+        .ecosystem__tag.ecosystem__tag--second.wow
           .ecosystem__tag-icon
             i.icon.icon-card
           .ecosystem__tag-name Деньги конвертируются в GMP и попадают на счет игрока
@@ -142,7 +142,7 @@ block content
         include ../inline-svg/ecosystem-floating.svg
             
   // DEVICES :: START
-  .devices#devices
+  .devices
     .devices__oval
       img(src='img/devices-oval.svg')
     .devices__bg
@@ -153,7 +153,7 @@ block content
       img(src='img/devices_bg-oval.svg')
     .container.container--wide
       .devices__wrapper
-        .devices__slider
+        .devices__slider.wow
           .devices__slider-bg
             img(src='img/devices_bg-shapes2.svg')
           .devices__slider-bg.devices__slider-bg--mobile
@@ -168,10 +168,10 @@ block content
             .devices__slide(data-index="4")
               img(src='img/devices_windows.png' srcset='img/devices_windows@2x.png 2x')
 
-        .devices__contents
-          h1.h1-title SRG Blockchain
-          .t1-paragraph Blockchain используемный для прозрачности отчетов а так же выпуска ликвидных токенов GMP. Blockchain используется во всех приложениях SRG company
-          .devices__nav(js-swiper-devices-nav)
+        .devices__contents#blockchain
+          h1.h1-title.wow SRG Blockchain
+          .t1-paragraph.wow Blockchain используемный для прозрачности отчетов а так же выпуска ликвидных токенов GMP. Blockchain используется во всех приложениях SRG company
+          .devices__nav.wow(js-swiper-devices-nav)
             .devices__nav-el.is-active(data-slide="1")
               span iOS
             .devices__nav-el(data-slide="2")
