@@ -169,7 +169,7 @@
         <use fill="url(#c)" xlink:href="#b"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#d)" xlink:href="#e"/>
         <use fill="url(#c)" xlink:href="#e"/>
@@ -181,7 +181,7 @@
         <use fill="url(#c)" xlink:href="#g"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#h)" xlink:href="#i"/>
         <use fill-opacity=".71" fill="url(#c)" xlink:href="#i"/>
@@ -193,7 +193,7 @@
         <use fill="url(#c)" xlink:href="#k"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="scale(-1 1) rotate(14 127.975 -1679.908)">
         <use fill="#000" filter="url(#l)" xlink:href="#m"/>
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#m"/>
@@ -205,7 +205,7 @@
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#o"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#p)" xlink:href="#q"/>
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#q"/>
@@ -217,7 +217,7 @@
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#s"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#t)" xlink:href="#u"/>
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#u"/>
@@ -229,7 +229,7 @@
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#w"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#x)" xlink:href="#y"/>
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#y"/>
@@ -241,7 +241,7 @@
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#A"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#B)" xlink:href="#C"/>
         <use fill-opacity=".71" fill="url(#c)" xlink:href="#C"/>
@@ -253,7 +253,7 @@
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#E"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#F)" xlink:href="#G"/>
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#G"/>
@@ -265,7 +265,7 @@
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#I"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#J)" xlink:href="#K"/>
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#K"/>
@@ -277,7 +277,7 @@
         <use fill-opacity=".71" fill="url(#c)" xlink:href="#M"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#N)" xlink:href="#O"/>
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#O"/>
@@ -289,7 +289,7 @@
         <use fill-opacity=".3" fill="url(#c)" xlink:href="#Q"/>
       </g>
     </g>
-    <g class="anim">
+    <g class="">
       <g transform="matrix(-1 0 0 1 494 21)">
         <use fill="#000" filter="url(#R)" xlink:href="#S"/>
         <use fill-opacity=".71" fill="url(#c)" xlink:href="#S"/>
