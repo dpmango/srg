@@ -23,6 +23,7 @@ var config = {
     iconsFont    : 'src/icons',
     fonts        : 'src/fonts',
     vendor       : 'src/vendor',
+    video        : 'src/video',
     php          : 'src/php',
     json         : 'src/json'
   },
@@ -34,6 +35,7 @@ var config = {
     img   : destPath + '/img',
     fonts : destPath + '/fonts',
     vendor: destPath + '/vendor',
+    video : destPath + '/video',
     php   : destPath + '/php',
     json  : destPath + '/json'
   },

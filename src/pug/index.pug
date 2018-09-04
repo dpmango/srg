@@ -23,7 +23,9 @@ block content
             img(src='img/hero-oval.png' srcset='img/hero-oval@2x.png 2x')
           .hero__remote
             .hero__remote-wrapper
-              img(src='img/hero-remote.png' srcset='img/hero-remote@2x.png 2x')
+              video(autoplay loop)
+                source(src="video/gamepad_02.mp4" type="video/mp4")
+              //- img(src='img/hero-remote.png' srcset='img/hero-remote@2x.png 2x')
               .hero__btn
                 a(href="#").hero__join
                   .hero__join-bg
@@ -90,7 +92,9 @@ block content
 
         .benefits__center
           .benefits__cube
-            #cube
+            video(autoplay loop)
+              source(src="video/cube_shine_01.mp4" type="video/mp4")
+            //- #cube
             //- img(src='img/cube.png' srcset='img/cube@2x.png 2x')
           
         .benefits__right

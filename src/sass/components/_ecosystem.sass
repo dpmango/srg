@@ -51,14 +51,14 @@
   .ecosystem
     padding-top: 60px
     &__wrapper
-      margin-left: -40px
-      margin-right: 20px
+      // margin-left: -40px
+      // margin-right: 20px
       // margin-right: -50px
       .h1-title
         font-size: 66px
     &__image
       margin-top: 60px
-      margin-left: 0
+      margin-left: -40px
     &__tag
       &--first
         left: 15%
@@ -70,3 +70,34 @@
     &__floating
       bottom: -5%
       right: -50px
+
++r($mobile)
+  .ecosystem
+    padding-bottom: 0px
+    &__wrapper
+      .h1-title
+        text-align: center
+        font-size: 46px
+    &__image
+      margin-top: 20px
+      margin-left: -20px
+      min-width: 375px
+
+    &__tag
+      display: none
+      // &--first
+      //   left: 0
+      //   bottom: -30%
+      // &--second
+      //   bottom: -7%
+
++r(414)
+  .ecosystem
+    // &__tag
+    //   &--first
+    //     left: -10%
+    //     bottom: -30%
+    //   &--second
+    //     bottom: -20%
+    // &__tag-name
+    //   font-size: 12px

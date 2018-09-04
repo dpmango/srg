@@ -18,7 +18,7 @@ $(document).ready(function(){
     initSliders();
     initScrollMonitor();
     setBackgrounds();
-    initBgParticlesAnimation();
+    // initBgParticlesAnimation();
     _window.on('resize', debounce(setBackgrounds, 200))
     initLottie();
   }
@@ -217,15 +217,14 @@ $(document).ready(function(){
       //   path: '/animation-json/about-anim.json'
       // })
     }
-    if ( $('#cube').length > 0 ) {
-      // var animation_2 = lottie.loadAnimation({
-      //   container: document.getElementById('cube'),
-      //   renderer: 'svg',
-      //   loop: true,
-      //   autoplay: true,
-      //   path: '/animation-json/data.json'
-      // })
-    }
+
+    // var cube = lottie.loadAnimation({
+    //   container: document.getElementById('cube'),
+    //   renderer: 'svg',
+    //   loop: true,
+    //   autoplay: true,
+    //   path: '/animation-json/test3.json'
+    // })
 
     var schema = lottie.loadAnimation({
       container: document.getElementById('schema'),

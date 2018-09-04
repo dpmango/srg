@@ -134,6 +134,7 @@
     padding-right: 0
     margin-left: -5px
     margin-right: -5px
+    margin-top: 0
     // padding-bottom: 30px
     &__socials
       flex-basis: 180px
@@ -193,6 +194,9 @@
     padding-bottom: 65px
     height: 640px
     overflow: hidden
+    +r($mobile)
+      height: 300px
+      // min-height: 200px
     &::after
       display: inline-block
       content: ''
